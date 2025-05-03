@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>社内システム</title>
+  <style>
+    body {
+      background-color: #353535;
+      font-family: "Helvetica Neue", sans-serif;
+      padding: 20px;
+    }
+    h1 {
+      font-size: 36px;
+      text-align: left;
+      color: #fcfcfc;
+      margin-bottom: 30px;
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 400px;
+    }
+    button {
+      font-size: 18px;
+      padding: 12px 20px;
+      background-color: #669999;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      text-align: left;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #558888;
+    }
+
+    @media (max-width: 500px) {
+      .button-container {
+        width: 100%;
+      }
+      button {
+        font-size: 16px;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>社内システム</h1>
+  <div class="button-container">
+    <button onclick="location.href='https://www.ostechnology-portal.jp/top'">掲示板</button>
+    <button onclick="location.href='https://osg03-cws.company.works-hi.com/self-workflow/cws/cws'">勤怠</button>
+    <button onclick="location.href='https://ostechnology.secure.keihi.com/transactions'">TOKIUM</button>
+    <button onclick="location.href='https://www2.e-kakushin.com/emember/servicetop.do?p=init'">e革新</button>
+    <button onclick="location.href='https://www25.learningpark.jp/ostech-education'">CAREESHIP</button>
+    <button onclick="location.href='https://tiuy3435.talent-p.net/'">Talent Palette</button>
+  </div>
+</body>
+</html>
