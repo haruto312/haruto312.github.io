@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>社内システムポータル</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  
+  <style>
+    :root {
+      --bg-color: #1a1a2e;
+      --card-bg: rgba(255, 255, 255, 0.05);
+      --primary-gradient: linear-gradient(135deg, #00b4db 0%, #0083b0 100%);
+      --hover-gradient: linear-gradient(135deg, #00d2ff 0%, #3a7bd5 100%);
+      --text-color: #ffffff;
+      --accent-color: #e94560;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-color);
+      background-image: radial-gradient(circle at 10% 20%, rgba(0, 180, 219, 0.1) 0%, transparent 20%),
+                        radial-gradient(circle at 90% 80%, rgba(233, 69, 96, 0.1) 0%, transparent 20%);
+      font-family: "Noto Sans JP", "Helvetica Neue", sans-serif;
+      color: var(--text-color);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    /* ガラス風カードコンテナ */
+    .container {
+      background: var(--card-bg);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 40px;
+      width: 100%;
+      max-width: 480px;
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+      animation: fadeIn 0.8s ease-out;
+    }
+
+    h1 {
+      font-size: 28px;
+      text-align: center;
+      margin-bottom: 30px;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      border-bottom: 2px solid rgba(255,255,255,0.1);
+      padding-bottom: 15px;
+    }
+
+    h1 i {
+      margin-right: 10px;
+      color: #00b4db;
+    }
+
+    .button-list {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    /* ボタンスタイル */
+    .link-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 15px 20px;
+      border-radius: 12px;
+      color: #fff;
+      transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      border-left: 4px solid transparent;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .link-content {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+
+    .link-icon {
+      width: 30px;
+      font-size: 20px;
+      text-align: center;
+      margin-right: 15px;
+      color: #00b4db;
+    }
+
+    .link-text {
+      font-size: 16px;
+      font-weight: 500;
+      flex-grow: 1;
+    }
+
+    .arrow-icon {
+      opacity: 0.5;
+      transition: transform 0.3s ease;
+    }
+
+    /* ホバー時の挙動 */
+    .link-card:hover {
+      background: rgba(255, 255, 255, 0.15);
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+      border-left: 4px solid #00b4db;
+    }
+
+    .link-card:hover .arrow-icon {
+      opacity: 1;
+      transform: translateX(5px);
+    }
+
+    .link-card:active {
+      transform: scale(0.98);
+    }
+
+    /* 注釈バッジ */
+    .badge {
+      font-size: 11px;
+      background-color: var(--accent-color);
+      color: white;
+      padding: 4px 8px;
+      border-radius: 4px;
+      margin-left: 10px;
+      white-space: nowrap;
+      font-weight: bold;
+      animation: pulse 2s infinite;
+    }
+
+    /* 注釈のある項目のレイアウト調整 */
+    .special-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 0 rgba(233, 69, 96, 0.7); }
+      70% { box-shadow: 0 0 0 6px rgba(233, 69, 96, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(233, 69, 96, 0); }
+    }
+
+    @media (max-width: 500px) {
+      .container {
+        padding: 25px;
+      }
+      h1 {
+        font-size: 24px;
+      }
+      .link-card {
+        padding: 12px 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1><i class="fa-solid fa-network-wired"></i>社内システム</h1>
+    
+    <div class="button-list">
+      
+      <a href="https://portal.brexa-tech.jp/" class="link-card" target="_blank">
+        <div class="link-content">
+          <i class="fa-solid fa-clipboard-list link-icon"></i>
+          <span class="link-text">掲示板</span>
+        </div>
+        <i class="fa-solid fa-chevron-right arrow-icon"></i>
+      </a>
+
+      <a href="https://osg03-cws.company.works-hi.com/self-workflow/cws/cws" class="link-card" target="_blank">
+        <div class="link-content">
+          <i class="fa-solid fa-clock link-icon"></i>
+          <span class="link-text">勤怠管理</span>
+        </div>
+        <i class="fa-solid fa-chevron-right arrow-icon"></i>
+      </a>
+
+      <a href="https://btec.secure.keihi.com/subdomains/sign_in" class="link-card" target="_blank">
+        <div class="link-content">
+          <i class="fa-solid fa-file-invoice-dollar link-icon"></i>
+          <span class="link-text">TOKIUM (経費)</span>
+        </div>
+        <i class="fa-solid fa-chevron-right arrow-icon"></i>
+      </a>
+
+      <a href="https://www2.e-kakushin.com/emember/servicetop.do?p=init" class="link-card" target="_blank">
+        <div class="link-content">
+          <i class="fa-solid fa-receipt link-icon"></i>
+          <span class="link-text">e革新 (給与明細)</span>
+        </div>
+        <i class="fa-solid fa-chevron-right arrow-icon"></i>
+      </a>
+
+      <a href="https://www25.learningpark.jp/ostech-education" class="link-card" target="_blank">
+        <div class="link-content">
+          <i class="fa-solid fa-graduation-cap link-icon"></i>
+          <span class="link-text">CAREESHIP</span>
+        </div>
+        <i class="fa-solid fa-chevron-right arrow-icon"></i>
+      </a>
+
+      <a href="https://www25.learningpark.jp/BREXA-education" class="link-card" target="_blank">
+        <div class="link-content">
+          <i class="fa-solid fa-rocket link-icon"></i> <span class="link-text">CAREESHIP (新)</span>
+          <span class="badge">12/19 切替</span>
+        </div>
+        <i class="fa-solid fa-chevron-right arrow-icon"></i>
+      </a>
+
+      <a href="https://tiuy3435.talent-p.net/saml/sso" class="link-card" target="_blank">
+        <div class="link-content">
+          <i class="fa-solid fa-users-viewfinder link-icon"></i>
+          <span class="link-text">Talent Palette</span>
+        </div>
+        <i class="fa-solid fa-chevron-right arrow-icon"></i>
+      </a>
+
+    </div>
+  </div>
+
+</body>
+</html>
