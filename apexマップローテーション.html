@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apex Rotation Calendar (Mar-Apr)</title>
+    <style>
+        :root {
+            --bg-color: #05070a;
+            --card-bg: rgba(20, 25, 35, 0.9);
+            --border-color: rgba(255, 255, 255, 0.1);
+            --text-main: #ffffff;
+            --accent-red: #ff4b4b;
+            --sat-color: #60a5fa; /* 土曜 */
+            --sun-color: #f87171; /* 日曜 */
+            
+            /* マップ別カラー（視認性重視の深めのグラデーション） */
+            --color-bm: linear-gradient(135deg, #14532d 0%, #061e0f 100%); /* Broken Moon */
+            --color-ed: linear-gradient(135deg, #1e3a8a 0%, #172554 100%); /* E-District */
+            --color-we: linear-gradient(135deg, #7c2d12 0%, #431407 100%); /* World's Edge */
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            font-family: 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .month-section {
+            width: 100%;
+            max-width: 1000px;
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 24px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 0 10px 10px 10px;
+            border-bottom: 3px solid var(--accent-red);
+        }
+
+        .month-name {
+            font-size: 2rem;
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 10px;
+        }
+
+        .weekday {
+            text-align: center;
+            font-weight: 800;
+            font-size: 0.9rem;
+            padding-bottom: 10px;
+            color: #94a3b8;
+        }
+
+        /* 曜日の色付け */
+        .weekday:nth-child(1) { color: var(--sun-color); }
+        .weekday:nth-child(7) { color: var(--sat-color); }
+
+        .day-cell {
+            min-height: 110px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            position: relative;
+        }
+
+        .date-num {
+            font-size: 1.3rem;
+            font-weight: 900;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .map-badge {
+            font-size: 0.9rem;
+            font-weight: 800;
+            text-align: center;
+            padding: 6px 2px;
+            border-radius: 8px;
+            background: rgba(0, 0, 0, 0.5);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #fff;
+            letter-spacing: 0.5px;
+        }
+
+        /* マップ別背景色 */
+        .map-BM { background: var(--color-bm); }
+        .map-ED { background: var(--color-ed); }
+        .map-WE { background: var(--color-we); }
+
+        /* 土日の日付の色 */
+        .sun-cell .date-num { color: var(--sun-color); }
+        .sat-cell .date-num { color: var(--sat-color); }
+
+        .is-today {
+            outline: 3px solid var(--accent-red);
+            outline-offset: -3px;
+            box-shadow: inset 0 0 20px rgba(255, 75, 75, 0.3);
+        }
+
+        .today-label {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            background: var(--accent-red);
+            font-size: 0.6rem;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        .empty { opacity: 0; }
+
+        @media (max-width: 600px) {
+            .month-name { font-size: 1.5rem; }
+            .day-cell { min-height: 80px; padding: 5px; }
+            .map-badge { font-size: 0.6rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div id="calendar-root" style="width: 100%; display: flex; flex-direction: column; align-items: center; gap: 40px;"></div>
+
+<script>
+    const maps = [
+        { name: "Broken Moon", code: "BM" },
+        { name: "E-District", code: "ED" },
+        { name: "World's Edge", code: "WE" }
+    ];
+
+    const baseDate = new Date(2026, 2, 1); // 3月1日
+    const today = new Date();
+
+    function createMonthCalendar(year, month) {
+        const root = document.getElementById('calendar-root');
+        
+        const section = document.createElement('div');
+        section.className = 'month-section';
+        
+        const monthLabel = new Intl.DateTimeFormat('ja-JP', { year: 'numeric', month: 'long' }).format(new Date(year, month));
+        
+        section.innerHTML = `
+            <div class="header">
+                <div class="month-name">${monthLabel}</div>
+            </div>
+            <div class="grid">
+                <div class="weekday">SUN</div><div class="weekday">MON</div><div class="weekday">TUE</div>
+                <div class="weekday">WED</div><div class="weekday">THU</div><div class="weekday">FRI</div>
+                <div class="weekday">SAT</div>
+            </div>
+        `;
+
+        const grid = section.querySelector('.grid');
+        const firstDay = new Date(year, month, 1);
+        const lastDay = new Date(year, month + 1, 0);
+
+        // 空白
+        for (let i = 0; i < firstDay.getDay(); i++) {
+            const div = document.createElement('div');
+            div.className = 'day-cell empty';
+            grid.appendChild(div);
+        }
+
+        // 日付
+        for (let d = 1; d <= lastDay.getDate(); d++) {
+            const cur = new Date(year, month, d);
+            const diffDays = Math.floor((cur.getTime() - baseDate.getTime()) / (1000 * 60 * 60 * 24));
+            
+            let mapIdx = diffDays % maps.length;
+            if (mapIdx < 0) mapIdx += maps.length;
+            const map = maps[mapIdx];
+
+            const cell = document.createElement('div');
+            const dayOfWeek = cur.getDay();
+            cell.className = `day-cell map-${map.code}`;
+            if (dayOfWeek === 0) cell.classList.add('sun-cell');
+            if (dayOfWeek === 6) cell.classList.add('sat-cell');
+            
+            if (cur.toDateString() === today.toDateString()) {
+                cell.classList.add('is-today');
+                cell.innerHTML += `<span class="today-label">TODAY</span>`;
+            }
+
+            cell.innerHTML += `
+                <div class="date-num">${d}</div>
+                <div class="map-badge">${map.name}</div>
+            `;
+            grid.appendChild(cell);
+        }
+        
+        root.appendChild(section);
+    }
+
+    // 2026年3月と4月を描画
+    createMonthCalendar(2026, 2); // 3月
+    createMonthCalendar(2026, 3); // 4月
+</script>
+
+</body>
+</html>
