@@ -14,10 +14,10 @@
             --sun-color: #ff6b6b;
             --sat-color: #4da3ff;
             
-            /* マップカラー */
-            --color-bm: linear-gradient(180deg, #163a2a 0%, #0a1a14 100%); /* Broken Moon */
-            --color-ed: linear-gradient(180deg, #1a2a4a 0%, #0d1526 100%); /* E-District */
+            /* マップカラーを更新 */
+            --color-sp: linear-gradient(180deg, #103c4a 0%, #0a212a 100%); /* Storm Point */
             --color-we: linear-gradient(180deg, #4a2a1a 0%, #26150d 100%); /* World's Edge */
+            --color-ol: linear-gradient(180deg, #2a4c6e 0%, #15283b 100%); /* Olympus */
         }
 
         * {
@@ -59,7 +59,7 @@
         .calendar-grid {
             display: grid;
             grid-template-columns: repeat(7, 1fr);
-            gap: 4px; /* スマホ用に隙間を狭く */
+            gap: 4px;
         }
 
         .weekday-label {
@@ -91,7 +91,7 @@
         }
 
         .map-name {
-            font-size: 0.55rem; /* スマホで入り切るサイズ */
+            font-size: 0.55rem;
             font-weight: 800;
             text-align: center;
             background: rgba(0,0,0,0.6);
@@ -101,10 +101,10 @@
             white-space: nowrap;
         }
 
-        /* マップ背景 */
-        .map-BM { background: var(--color-bm); }
-        .map-ED { background: var(--color-ed); }
+        /* マップ背景クラスを更新 */
+        .map-SP { background: var(--color-sp); }
         .map-WE { background: var(--color-we); }
+        .map-OL { background: var(--color-ol); }
 
         /* 今日の強調 */
         .is-today {
@@ -125,7 +125,6 @@
         .sat-text { color: var(--sat-color); }
         .empty-cell { opacity: 0; }
 
-        /* 非常に小さい画面用 */
         @media (max-width: 360px) {
             .date-number { font-size: 0.8rem; }
             .map-name { font-size: 0.5rem; transform: scale(0.9); }
@@ -137,13 +136,15 @@
 <div id="calendar-app"></div>
 
 <script>
+    // マップローテーションを更新
     const maps = [
-        { name: "Broken Moon", code: "BM" },
-        { name: "E-District", code: "ED" },
-        { name: "World's Edge", code: "WE" }
+        { name: "Storm Point", code: "SP" },
+        { name: "World's Edge", code: "WE" },
+        { name: "Olympus", code: "OL" }
     ];
 
-    const baseDate = new Date(2026, 2, 1); // 3/1開始
+    // 今日（2026年3月26日）をストームポイント(インデックス0)の基準日に設定
+    const baseDate = new Date(2026, 2, 26); 
     const today = new Date();
 
     function generateCalendar(year, month) {
