@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Apex Map Mobile</title>
+    <title>Apex Map Mobile - Season 2026</title>
     <style>
         :root {
             --bg-color: #05070a;
@@ -14,10 +14,11 @@
             --sun-color: #ff6b6b;
             --sat-color: #4da3ff;
             
-            /* マップカラーを更新 */
-            --color-sp: linear-gradient(180deg, #103c4a 0%, #0a212a 100%); /* Storm Point */
+            /* マップカラー設定 */
             --color-we: linear-gradient(180deg, #4a2a1a 0%, #26150d 100%); /* World's Edge */
+            --color-ed: linear-gradient(180deg, #2a1a4a 0%, #150d26 100%); /* E-District */
             --color-ol: linear-gradient(180deg, #2a4c6e 0%, #15283b 100%); /* Olympus */
+            --color-event: #ffcc00;
         }
 
         * {
@@ -88,22 +89,38 @@
         .date-number {
             font-size: 0.9rem;
             font-weight: 700;
+            z-index: 1;
         }
 
         .map-name {
-            font-size: 0.55rem;
+            font-size: 0.5rem;
             font-weight: 800;
             text-align: center;
-            background: rgba(0,0,0,0.6);
+            background: rgba(0,0,0,0.7);
             padding: 2px 0;
             border-radius: 4px;
             text-transform: uppercase;
             white-space: nowrap;
+            z-index: 1;
         }
 
-        /* マップ背景クラスを更新 */
-        .map-SP { background: var(--color-sp); }
+        .event-tag {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background: var(--color-event);
+            color: #000;
+            font-size: 0.45rem;
+            font-weight: 900;
+            text-align: center;
+            padding: 1px 0;
+            transform: translateY(0);
+        }
+
+        /* マップ背景 */
         .map-WE { background: var(--color-we); }
+        .map-ED { background: var(--color-ed); border: 1px solid rgba(147, 51, 234, 0.3); }
         .map-OL { background: var(--color-ol); }
 
         /* 今日の強調 */
@@ -113,12 +130,14 @@
         }
         
         .is-today::after {
-            content: "";
+            content: "TODAY";
             position: absolute;
-            top: 0; right: 0;
-            border-style: solid;
-            border-width: 0 15px 15px 0;
-            border-color: transparent var(--accent-red) transparent transparent;
+            top: 2px;
+            right: 2px;
+            font-size: 0.4rem;
+            background: var(--accent-red);
+            padding: 1px 3px;
+            border-radius: 2px;
         }
 
         .sun-text { color: var(--sun-color); }
@@ -127,7 +146,7 @@
 
         @media (max-width: 360px) {
             .date-number { font-size: 0.8rem; }
-            .map-name { font-size: 0.5rem; transform: scale(0.9); }
+            .map-name { font-size: 0.45rem; transform: scale(0.9); }
         }
     </style>
 </head>
@@ -136,15 +155,15 @@
 <div id="calendar-app"></div>
 
 <script>
-    // マップローテーションを更新
+    // マップローテーション設定
     const maps = [
-        { name: "Storm Point", code: "SP" },
         { name: "World's Edge", code: "WE" },
+        { name: "E-District", code: "ED" },
         { name: "Olympus", code: "OL" }
     ];
 
-    // 今日（2026年3月26日）をストームポイント(インデックス0)の基準日に設定
-    const baseDate = new Date(2026, 2, 26); 
+    // 基準日: 2026年4月28日 (World's Edge)
+    const baseDate = new Date(2026, 3, 28); 
     const today = new Date();
 
     function generateCalendar(year, month) {
@@ -164,12 +183,12 @@
         const firstDay = new Date(year, month, 1).getDay();
         const daysInMonth = new Date(year, month + 1, 0).getDate();
 
-        // 空白
+        // 空白セル
         for (let i = 0; i < firstDay; i++) {
             html += `<div class="day-cell empty-cell"></div>`;
         }
 
-        // 日付
+        // 日付セル
         for (let d = 1; d <= daysInMonth; d++) {
             const current = new Date(year, month, d);
             const diff = Math.floor((current.getTime() - baseDate.getTime()) / (86400000));
@@ -184,10 +203,14 @@
             if (dayOfWeek === 0) dateClass = 'sun-text';
             if (dayOfWeek === 6) dateClass = 'sat-text';
 
+            // シーズン切り替え日(5月2日)の判定
+            const isSeasonChange = (year === 2026 && month === 4 && d === 2);
+
             html += `
                 <div class="day-cell map-${map.code} ${isToday}">
                     <div class="date-number ${dateClass}">${d}</div>
                     <div class="map-name">${map.name.split(' ')[0]}<br>${map.name.split(' ')[1] || ''}</div>
+                    ${isSeasonChange ? '<div class="event-tag">SEASON UPDATE</div>' : ''}
                 </div>
             `;
         }
@@ -197,9 +220,9 @@
         app.appendChild(container);
     }
 
-    // 2026年3月と4月を表示
-    generateCalendar(2026, 2);
-    generateCalendar(2026, 3);
+    // 2026年4月と5月を表示
+    generateCalendar(2026, 3); // 4月
+    generateCalendar(2026, 4); // 5月
 </script>
 
 </body>
