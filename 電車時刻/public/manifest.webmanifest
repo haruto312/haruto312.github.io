@@ -1,0 +1,25 @@
+{
+  "name": "Tokyo Next Trains",
+  "short_name": "Next Trains",
+  "description": "現在地から1km以内の駅と次の発車時刻を確認できます。",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f7faf9",
+  "theme_color": "#139c8b",
+  "icons": [
+    {
+      "src": "/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

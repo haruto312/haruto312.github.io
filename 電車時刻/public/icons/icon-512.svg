@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Tokyo Next Trains">
+  <rect width="512" height="512" rx="112" fill="#139c8b"/>
+  <path fill="#fff" d="M154 118h204c34 0 61 27 61 61v154c0 34-27 61-61 61H154c-34 0-61-27-61-61V179c0-34 27-61 61-61Zm0 51c-6 0-10 4-10 10v99c0 6 4 10 10 10h204c6 0 10-4 10-10v-99c0-6-4-10-10-10H154Zm45 180a27 27 0 1 0 0-54 27 27 0 0 0 0 54Zm114-27a27 27 0 1 0 54 0 27 27 0 0 0-54 0Z"/>
+  <path fill="#06231f" d="m177 411-40 53h56l27-37h73l27 37h56l-40-53H177Z"/>
+</svg>
