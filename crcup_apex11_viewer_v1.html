@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CR CUP APEX #11 — Personal Stream Dashboard</title>
+<style>
+:root{
+  --bg:#080b10;--panel:#10151d;--panel2:#151c26;--line:#252e3b;
+  --text:#f4f7fb;--muted:#8f9bad;--accent:#ff3b4f;--accent2:#7c5cff;
+  --good:#26d980;--warn:#ffbd2e;--shadow:0 14px 40px rgba(0,0,0,.28);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;color:var(--text);background:
+  radial-gradient(circle at 12% 0%,rgba(124,92,255,.13),transparent 30%),
+  radial-gradient(circle at 90% 0%,rgba(255,59,79,.10),transparent 27%),
+  var(--bg);
+  font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif;
+}
+button,input{font:inherit}
+a{color:inherit}
+.shell{max-width:1500px;margin:auto;padding:22px}
+.topbar{
+  position:sticky;top:0;z-index:20;margin:-22px -22px 20px;padding:16px 22px;
+  background:rgba(8,11,16,.88);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.06)
+}
+.topline{display:flex;align-items:center;gap:14px;justify-content:space-between;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;font-weight:900;background:linear-gradient(135deg,var(--accent),#a10f24);box-shadow:0 0 0 1px rgba(255,255,255,.1) inset}
+h1{font-size:19px;margin:0;letter-spacing:.02em}
+.sub{font-size:12px;color:var(--muted);margin-top:3px}
+.pills{display:flex;gap:8px;flex-wrap:wrap}
+.pill,.btn{
+  border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:12px;
+  padding:9px 12px;cursor:pointer;transition:.16s ease;text-decoration:none
+}
+.btn:hover,.pill:hover{transform:translateY(-1px);border-color:#3b4759;background:#171e28}
+.btn.primary{background:var(--accent);border-color:var(--accent);font-weight:800}
+.btn.purple{background:var(--accent2);border-color:var(--accent2);font-weight:800}
+.btn.ghost{background:transparent}
+.btn.sm{padding:7px 9px;border-radius:9px;font-size:12px}
+.hero{
+  display:grid;grid-template-columns:1.4fr .8fr;gap:16px;margin-bottom:18px
+}
+.heroCard,.toolCard{
+  background:linear-gradient(180deg,rgba(21,28,38,.94),rgba(14,18,25,.94));
+  border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:var(--shadow)
+}
+.heroTitle{font-size:28px;font-weight:900;line-height:1.2;margin:0 0 8px}
+.heroText{color:var(--muted);line-height:1.7;margin:0}
+.statrow{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:17px}
+.stat{background:#0c1118;border:1px solid var(--line);border-radius:13px;padding:12px}
+.stat b{display:block;font-size:19px}.stat span{font-size:11px;color:var(--muted)}
+.notice{font-size:12px;line-height:1.65;color:var(--muted)}
+.controls{
+  display:flex;gap:9px;align-items:center;flex-wrap:wrap;margin:16px 0
+}
+.search{
+  min-width:260px;flex:1;border:1px solid var(--line);background:var(--panel);color:var(--text);
+  border-radius:12px;padding:11px 13px;outline:none
+}
+.search:focus{border-color:var(--accent2);box-shadow:0 0 0 3px rgba(124,92,255,.14)}
+.filter.active{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
+.team{margin:18px 0 26px}
+.teamHead{display:flex;align-items:center;justify-content:space-between;margin-bottom:9px}
+.teamTitle{display:flex;align-items:baseline;gap:9px}
+.teamTitle h2{margin:0;font-size:15px;letter-spacing:.08em}
+.teamTitle span{font-size:11px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:11px}
+.card{
+  border:1px solid var(--line);background:linear-gradient(180deg,#121923,#0e141c);
+  border-radius:15px;padding:14px;min-width:0;transition:.16s ease
+}
+.card:hover{border-color:#394657;transform:translateY(-1px)}
+.cardTop{display:flex;align-items:flex-start;justify-content:space-between;gap:8px}
+.name{font-size:17px;font-weight:850;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.meta{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.badge{font-size:10px;padding:4px 7px;border-radius:999px;border:1px solid var(--line);color:var(--muted);background:#0b1016}
+.badge.saved{color:#aaf2cd;border-color:rgba(38,217,128,.35);background:rgba(38,217,128,.08)}
+.badge.yt{color:#ff9aa5;border-color:rgba(255,59,79,.4)}
+.badge.tw{color:#c1b5ff;border-color:rgba(124,92,255,.5)}
+.star{border:0;background:transparent;color:#687386;font-size:22px;line-height:1;cursor:pointer;padding:0 2px}
+.star.on{color:#ffd45c}
+.actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.editor{display:none;margin-top:10px;padding-top:10px;border-top:1px solid var(--line)}
+.editor.open{display:block}
+.urlrow{display:flex;gap:7px}
+.urlinput{
+  min-width:0;flex:1;border:1px solid var(--line);background:#090e14;color:var(--text);
+  border-radius:9px;padding:9px 10px;font-size:12px;outline:none
+}
+.help{color:var(--muted);font-size:10px;line-height:1.5;margin-top:6px}
+.empty{display:none;padding:40px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:14px}
+.footer{margin:36px 0 90px;color:var(--muted);font-size:11px;line-height:1.7}
+.drawer{
+  position:fixed;inset:auto 0 0 0;z-index:50;background:rgba(8,11,16,.97);
+  border-top:1px solid #313b4a;box-shadow:0 -18px 50px rgba(0,0,0,.42);
+  transform:translateY(calc(100% - 54px));transition:.22s ease
+}
+.drawer.open{transform:translateY(0)}
+.drawerHead{height:54px;display:flex;align-items:center;justify-content:space-between;padding:0 18px;cursor:pointer}
+.drawerTitle{display:flex;align-items:center;gap:9px;font-weight:800}
+.count{display:grid;place-items:center;min-width:25px;height:25px;padding:0 7px;background:var(--accent2);border-radius:999px;font-size:11px}
+.multigrid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;padding:0 12px 12px;height:min(74vh,760px)}
+.slot{position:relative;background:#030508;border:1px solid var(--line);border-radius:11px;overflow:hidden;min-height:180px}
+.slot iframe{width:100%;height:100%;border:0}
+.slotbar{position:absolute;z-index:3;left:8px;right:8px;top:8px;display:flex;justify-content:space-between;pointer-events:none}
+.slotname,.slotx{background:rgba(6,9,13,.78);backdrop-filter:blur(8px);border:1px solid rgba(255,255,255,.09);border-radius:8px;padding:6px 8px;font-size:11px;pointer-events:auto}
+.slotx{cursor:pointer;color:#fff}
+.slotFallback{height:100%;display:grid;place-items:center;padding:28px;text-align:center;color:var(--muted);line-height:1.7}
+.slotFallback a{display:inline-block;margin-top:9px;color:#fff}
+.modalBack{display:none;position:fixed;inset:0;z-index:80;background:rgba(0,0,0,.68);align-items:center;justify-content:center;padding:18px}
+.modalBack.open{display:flex}
+.modal{width:min(620px,100%);background:#111822;border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:var(--shadow)}
+.modal h3{margin:0 0 8px}.modal p{color:var(--muted);font-size:12px;line-height:1.7}
+.modal textarea{width:100%;height:160px;background:#090e14;border:1px solid var(--line);color:var(--text);border-radius:10px;padding:10px;font-size:11px}
+.modalActions{display:flex;justify-content:flex-end;gap:8px;margin-top:10px}
+.toast{position:fixed;right:18px;top:78px;z-index:100;background:#161e29;border:1px solid #3b4655;border-radius:10px;padding:10px 12px;font-size:12px;box-shadow:var(--shadow);opacity:0;transform:translateY(-6px);pointer-events:none;transition:.18s}
+.toast.show{opacity:1;transform:none}
+@media(max-width:900px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.multigrid{grid-template-columns:1fr;height:78vh}.statrow{grid-template-columns:1fr 1fr 1fr}}
+@media(max-width:520px){.shell{padding:14px}.topbar{margin:-14px -14px 14px;padding:12px 14px}.heroTitle{font-size:23px}.controls{align-items:stretch}.search{min-width:100%}.pills{width:100%}.pill{flex:1}.multigrid{padding:0 6px 6px}.statrow{gap:6px}.stat{padding:10px}}
+</style>
+</head>
+<body>
+<div class="shell">
+  <div class="topbar">
+    <div class="topline">
+      <div class="brand">
+        <div class="logo">CR</div>
+        <div><h1>APEX #11 PERSONAL VIEWER</h1><div class="sub">2026.10.01–04 / Local dashboard v1</div></div>
+      </div>
+      <div class="pills">
+        <a class="btn sm ghost" target="_blank" rel="noopener" href="https://www.youtube.com/@CrazyRaccoonOfficial">公式配信</a>
+        <button class="btn sm ghost" onclick="openBackup()">設定バックアップ</button>
+      </div>
+    </div>
+  </div>
+
+  <section class="hero">
+    <div class="heroCard">
+      <div class="heroTitle">60人の配信先を<br>自分用にまとめる。</div>
+      <p class="heroText">各メンバーのYouTube / Twitchを検索し、見つけたURLをカードに登録。★お気に入りと配信URLはこのブラウザに保存されます。</p>
+      <div class="statrow">
+        <div class="stat"><b>20</b><span>TEAMS</span></div>
+        <div class="stat"><b>60</b><span>PLAYERS</span></div>
+        <div class="stat"><b id="savedCount">0</b><span>URL SAVED</span></div>
+      </div>
+    </div>
+    <div class="toolCard">
+      <div style="font-weight:850;margin-bottom:8px">Ver.1 の仕様</div>
+      <div class="notice">
+        ✓ 全60名・チーム別一覧<br>
+        ✓ YouTube / Twitch 検索<br>
+        ✓ 配信URLのローカル保存<br>
+        ✓ お気に入り<br>
+        ✓ 最大4枠のマルチビュー<br>
+        ✓ 設定のJSON書き出し / 復元<br><br>
+        <b style="color:#fff">LIVE自動判定はまだありません。</b> APIを使う自動検知はVer.2向けです。
+      </div>
+    </div>
+  </section>
+
+  <div class="controls">
+    <input id="search" class="search" placeholder="名前で検索（例：葛葉 / SHAKA）">
+    <button class="pill filter active" data-filter="all">全員</button>
+    <button class="pill filter" data-filter="fav">★ お気に入り</button>
+    <button class="pill filter" data-filter="saved">URL登録済み</button>
+  </div>
+
+  <div id="teams"></div>
+  <div id="empty" class="empty">条件に一致するメンバーがいません。</div>
+
+  <div class="footer">
+    参加者構成：第11回 Crazy Raccoon Cup Apex Legends（2026年10月4日本番）の公開情報をもとに作成。<br>
+    このファイルは個人利用向けの非公式ビューアです。Crazy Raccoonおよび各配信者とは無関係です。
+  </div>
+</div>
+
+<div id="drawer" class="drawer">
+  <div class="drawerHead" onclick="toggleDrawer()">
+    <div class="drawerTitle">MULTI VIEW <span id="multiCount" class="count">0</span></div>
+    <div style="font-size:11px;color:var(--muted)">クリックで開閉 ▲</div>
+  </div>
+  <div id="multigrid" class="multigrid"></div>
+</div>
+
+<div id="backup" class="modalBack" onclick="if(event.target===this)closeBackup()">
+  <div class="modal">
+    <h3>設定バックアップ</h3>
+    <p>お気に入りと登録URLをJSONで保存できます。別ブラウザへ移す場合は、下の内容をコピーして保存してください。復元時はJSONを貼り付けて「読み込む」を押します。</p>
+    <textarea id="backupText"></textarea>
+    <div class="modalActions">
+      <button class="btn sm" onclick="copyBackup()">コピー</button>
+      <button class="btn sm" onclick="importBackup()">読み込む</button>
+      <button class="btn sm primary" onclick="closeBackup()">閉じる</button>
+    </div>
+  </div>
+</div>
+<div id="toast" class="toast"></div>
+
+<script>
+const PLAYERS = [{"team": 1, "name": "LEO"}, {"team": 1, "name": "ヒカキン"}, {"team": 1, "name": "cheeky"}, {"team": 2, "name": "Ras"}, {"team": 2, "name": "SHAKA"}, {"team": 2, "name": "葛葉"}, {"team": 3, "name": "天月"}, {"team": 3, "name": "関優太"}, {"team": 3, "name": "ハセシン"}, {"team": 4, "name": "ありさか"}, {"team": 4, "name": "一ノ瀬うるは"}, {"team": 4, "name": "えでん"}, {"team": 5, "name": "ローレン・イロアス"}, {"team": 5, "name": "じゃすぱー"}, {"team": 5, "name": "Cpt"}, {"team": 6, "name": "加藤純一"}, {"team": 6, "name": "すもも"}, {"team": 6, "name": "たいじ"}, {"team": 7, "name": "柊ツルギ"}, {"team": 7, "name": "まろん"}, {"team": 7, "name": "SPYGEA"}, {"team": 8, "name": "ボドカ"}, {"team": 8, "name": "猫汰つな"}, {"team": 8, "name": "麻倉シノ"}, {"team": 9, "name": "kinako"}, {"team": 9, "name": "橘ひなの"}, {"team": 9, "name": "りんしゃんつかい"}, {"team": 10, "name": "AlphaAzur"}, {"team": 10, "name": "叢雲カゲツ"}, {"team": 10, "name": "イブラヒム"}, {"team": 11, "name": "常闇トワ"}, {"team": 11, "name": "うるか"}, {"team": 11, "name": "ゆふな"}, {"team": 12, "name": "Kamito"}, {"team": 12, "name": "八雲べに"}, {"team": 12, "name": "渋谷ハル"}, {"team": 13, "name": "わいわい"}, {"team": 13, "name": "NIRU"}, {"team": 13, "name": "neth"}, {"team": 14, "name": "k4sen"}, {"team": 14, "name": "ゆきお"}, {"team": 14, "name": "Biju"}, {"team": 15, "name": "なっち"}, {"team": 15, "name": "VanilLa"}, {"team": 15, "name": "花芽すみれ"}, {"team": 16, "name": "小柳ロウ"}, {"team": 16, "name": "うぉっか"}, {"team": 16, "name": "紡木こかげ"}, {"team": 17, "name": "不破湊"}, {"team": 17, "name": "でっぴー"}, {"team": 17, "name": "SqLA"}, {"team": 18, "name": "胡桃のあ"}, {"team": 18, "name": "1tappy"}, {"team": 18, "name": "樋口楓"}, {"team": 19, "name": "夢野あかり"}, {"team": 19, "name": "rpr"}, {"team": 19, "name": "Ru"}, {"team": 20, "name": "4rmy"}, {"team": 20, "name": "小森めと"}, {"team": 20, "name": "ラトナ・プティ"}];
+const KEY_LINKS = "crcup_apex11_links_v1";
+const KEY_FAVS  = "crcup_apex11_favs_v1";
+const KEY_MULTI = "crcup_apex11_multi_v1";
+let links = load(KEY_LINKS, {});
+let favs  = load(KEY_FAVS, []);
+let multi = load(KEY_MULTI, []);
+let filter = "all";
+let query = "";
+
+function load(k, fallback){
+  try { return JSON.parse(localStorage.getItem(k)) ?? fallback; } catch(e){ return fallback; }
+}
+function save(){
+  localStorage.setItem(KEY_LINKS, JSON.stringify(links));
+  localStorage.setItem(KEY_FAVS, JSON.stringify(favs));
+  localStorage.setItem(KEY_MULTI, JSON.stringify(multi));
+}
+function esc(s){return String(s).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[m]))}
+function idFor(p){return `t${p.team}-${p.name}`}
+function platform(url){
+  if(!url) return "";
+  if(/youtu\.?be|youtube\.com/i.test(url)) return "YouTube";
+  if(/twitch\.tv/i.test(url)) return "Twitch";
+  return "Link";
+}
+function ytSearch(name){ return `https://www.youtube.com/results?search_query=${encodeURIComponent(name+" CRカップ APEX")}` }
+function twSearch(name){ return `https://www.twitch.tv/search?term=${encodeURIComponent(name)}` }
+
+function render(){
+  const wrap = document.getElementById("teams");
+  wrap.innerHTML = "";
+  let shown = 0;
+  for(let t=1;t<=20;t++){
+    const ps = PLAYERS.filter(p=>p.team===t).filter(match);
+    if(!ps.length) continue;
+    shown += ps.length;
+    const section = document.createElement("section");
+    section.className="team";
+    section.innerHTML=`<div class="teamHead"><div class="teamTitle"><h2>TEAM ${String(t).padStart(2,"0")}</h2><span>${ps.length} PLAYERS</span></div></div><div class="grid"></div>`;
+    const grid=section.querySelector(".grid");
+    ps.forEach(p=>grid.appendChild(playerCard(p)));
+    wrap.appendChild(section);
+  }
+  document.getElementById("empty").style.display=shown?"none":"block";
+  document.getElementById("savedCount").textContent=Object.values(links).filter(Boolean).length;
+  renderMulti();
+}
+function match(p){
+  const id=idFor(p), has=!!links[id], fav=favs.includes(id);
+  if(query && !p.name.toLowerCase().includes(query.toLowerCase())) return false;
+  if(filter==="fav" && !fav) return false;
+  if(filter==="saved" && !has) return false;
+  return true;
+}
+function playerCard(p){
+  const id=idFor(p), url=links[id]||"", fav=favs.includes(id), pf=platform(url);
+  const card=document.createElement("article");
+  card.className="card";
+  card.innerHTML=`
+    <div class="cardTop">
+      <div style="min-width:0">
+        <div class="name">${esc(p.name)}</div>
+        <div class="meta">
+          <span class="badge">TEAM ${String(p.team).padStart(2,"0")}</span>
+          ${url?`<span class="badge saved">URL登録済み</span>`:`<span class="badge">URL未登録</span>`}
+          ${pf==="YouTube"?`<span class="badge yt">YouTube</span>`:""}
+          ${pf==="Twitch"?`<span class="badge tw">Twitch</span>`:""}
+        </div>
+      </div>
+      <button class="star ${fav?"on":""}" title="お気に入り" aria-label="お気に入り">★</button>
+    </div>
+    <div class="actions">
+      <a class="btn sm" target="_blank" rel="noopener" href="${ytSearch(p.name)}">YouTube検索</a>
+      <a class="btn sm" target="_blank" rel="noopener" href="${twSearch(p.name)}">Twitch検索</a>
+      <button class="btn sm editBtn">${url?"URL変更":"URL登録"}</button>
+      ${url?`<button class="btn sm primary openBtn">配信を開く</button>`:""}
+      ${url?`<button class="btn sm purple multiBtn">${multi.includes(id)?"マルチから外す":"＋ マルチ"}</button>`:""}
+    </div>
+    <div class="editor">
+      <div class="urlrow">
+        <input class="urlinput" placeholder="YouTube / Twitch のURLを貼り付け" value="${esc(url)}">
+        <button class="btn sm primary saveUrl">保存</button>
+      </div>
+      <div class="help">例：YouTubeの動画URL / ライブURL、または https://www.twitch.tv/チャンネル名</div>
+    </div>`;
+  card.querySelector(".star").onclick=()=>toggleFav(id);
+  card.querySelector(".editBtn").onclick=()=>card.querySelector(".editor").classList.toggle("open");
+  card.querySelector(".saveUrl").onclick=()=>{
+    const val=card.querySelector(".urlinput").value.trim();
+    if(val && !/^https?:\/\//i.test(val)){ toast("URLは http:// または https:// から入力してください"); return; }
+    if(val) links[id]=val; else delete links[id];
+    if(!val) multi=multi.filter(x=>x!==id);
+    save();render();toast(val?"URLを保存しました":"URLを削除しました");
+  };
+  if(url){
+    card.querySelector(".openBtn").onclick=()=>window.open(url,"_blank","noopener");
+    card.querySelector(".multiBtn").onclick=()=>toggleMulti(id);
+  }
+  return card;
+}
+function toggleFav(id){
+  favs=favs.includes(id)?favs.filter(x=>x!==id):[...favs,id];
+  save();render();
+}
+function toggleMulti(id){
+  if(multi.includes(id)) multi=multi.filter(x=>x!==id);
+  else{
+    if(multi.length>=4){toast("マルチビューは最大4枠です");return;}
+    multi=[...multi,id];
+  }
+  save();render();document.getElementById("drawer").classList.add("open");
+}
+function playerById(id){return PLAYERS.find(p=>idFor(p)===id)}
+function youtubeEmbed(url){
+  try{
+    const u=new URL(url); let v="";
+    if(u.hostname.includes("youtu.be")) v=u.pathname.split("/").filter(Boolean)[0]||"";
+    else if(u.pathname==="/watch") v=u.searchParams.get("v")||"";
+    else {
+      const m=u.pathname.match(/\/(?:live|shorts|embed)\/([^/?]+)/); if(m) v=m[1];
+    }
+    return v?`https://www.youtube.com/embed/${v}?autoplay=1&mute=1`:"";
+  }catch(e){return""}
+}
+function twitchChannel(url){
+  try{
+    const u=new URL(url);
+    if(!u.hostname.includes("twitch.tv"))return"";
+    const ch=u.pathname.split("/").filter(Boolean)[0]||"";
+    return ["videos","directory","search"].includes(ch)?"":ch;
+  }catch(e){return""}
+}
+function renderMulti(){
+  const grid=document.getElementById("multigrid");
+  const count=document.getElementById("multiCount");
+  multi=multi.filter(id=>playerById(id) && links[id]);
+  save(); count.textContent=multi.length;
+  grid.innerHTML="";
+  if(!multi.length){
+    grid.innerHTML=`<div class="slot" style="grid-column:1/-1"><div class="slotFallback"><div>各カードの「＋ マルチ」を押すと、ここに最大4人まで追加できます。<br><small>YouTube動画URLは埋め込み表示。Twitchは localhost で開いた場合に埋め込みできます。</small></div></div></div>`;
+    return;
+  }
+  multi.forEach(id=>{
+    const p=playerById(id), url=links[id], slot=document.createElement("div");
+    slot.className="slot";
+    let body="", yt=youtubeEmbed(url), tw=twitchChannel(url);
+    if(yt){
+      body=`<iframe allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen src="${yt}"></iframe>`;
+    }else if(tw && location.hostname){
+      const parent=encodeURIComponent(location.hostname);
+      body=`<iframe allowfullscreen src="https://player.twitch.tv/?channel=${encodeURIComponent(tw)}&parent=${parent}&muted=true"></iframe>`;
+    }else{
+      const msg=tw
+        ? "Twitchの埋め込みは file:// では動作しません。下のボタンから配信を開くか、HTMLを localhost で開くと埋め込みできます。"
+        : "このURLは埋め込み形式を判定できません。配信ページを別タブで開いてください。";
+      body=`<div class="slotFallback"><div>${msg}<br><a class="btn sm primary" target="_blank" rel="noopener" href="${esc(url)}">配信を開く</a></div></div>`;
+    }
+    slot.innerHTML=body+`<div class="slotbar"><span class="slotname">${esc(p.name)}</span><button class="slotx" title="外す">✕</button></div>`;
+    slot.querySelector(".slotx").onclick=()=>toggleMulti(id);
+    grid.appendChild(slot);
+  });
+}
+function toggleDrawer(){document.getElementById("drawer").classList.toggle("open")}
+document.getElementById("search").addEventListener("input",e=>{query=e.target.value.trim();render()});
+document.querySelectorAll(".filter").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll(".filter").forEach(x=>x.classList.remove("active"));
+  b.classList.add("active");filter=b.dataset.filter;render();
+});
+function openBackup(){
+  const data={version:1,links,favs};
+  document.getElementById("backupText").value=JSON.stringify(data,null,2);
+  document.getElementById("backup").classList.add("open");
+}
+function closeBackup(){document.getElementById("backup").classList.remove("open")}
+async function copyBackup(){
+  try{await navigator.clipboard.writeText(document.getElementById("backupText").value);toast("コピーしました")}
+  catch(e){document.getElementById("backupText").select();document.execCommand("copy");toast("コピーしました")}
+}
+function importBackup(){
+  try{
+    const d=JSON.parse(document.getElementById("backupText").value);
+    if(!d || typeof d.links!=="object" || !Array.isArray(d.favs)) throw 0;
+    links=d.links;favs=d.favs;multi=[];save();render();closeBackup();toast("設定を読み込みました");
+  }catch(e){toast("JSONを読み込めませんでした")}
+}
+let toastTimer;
+function toast(msg){
+  const t=document.getElementById("toast");t.textContent=msg;t.classList.add("show");
+  clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove("show"),1800);
+}
+render();
+</script>
+</body>
+</html>
