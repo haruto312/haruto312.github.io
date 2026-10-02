@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "generatedAt": "2026-10-02T08:04:24.612Z",
+  "generatedAt": "2026-10-02T08:27:12.928Z",
   "players": {
     "t1-LEO": {
       "team": 1,
@@ -91,12 +91,12 @@
       "name": "関優太",
       "kind": "player",
       "role": "PLAYER",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/stylishnoob4",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T03:50:04.133Z"
+      "title": "心頭滅却 day2 コントローラーでコントローラー | apex legendsを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/stylishnoob4-profile_image-08271f11296c16df-300x300.png",
+      "changedAt": "2026-10-02T08:27:12.928Z"
     },
     "t3-ハセシン": {
       "team": 3,
@@ -620,11 +620,11 @@
       "kind": "player",
       "role": "PLAYER",
       "live": false,
-      "platform": "twitch",
-      "liveUrl": "https://www.twitch.tv/963noah",
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@963noah",
       "title": null,
       "thumbnail": null,
-      "changedAt": "2026-10-02T08:04:24.612Z"
+      "changedAt": "2026-10-02T08:27:12.928Z"
     },
     "t18-1tappy": {
       "team": 18,
@@ -802,9 +802,9 @@
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/xtsuvi_",
-      "title": "CRカップスクリム見返し➞本日のCRカップスクリム | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/a8f38be7-04e0-4c13-8054-40c173451889-profile_image-300x300.png",
-      "changedAt": "2026-10-02T08:03:54.010Z"
+      "title": "Twitch is the world's leading video platform and community for gamers.",
+      "thumbnail": "https://static-cdn.jtvnw.net/ttv-static-metadata/twitch_logo3.jpg",
+      "changedAt": "2026-10-02T08:27:12.928Z"
     },
     "c9-Taida": {
       "team": 9,
