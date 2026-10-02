@@ -1,6 +1,6 @@
 {
-  "version": 4,
-  "generatedAt": "2026-10-02T08:03:54.010Z",
+  "version": 5,
+  "generatedAt": "2026-10-02T08:04:24.612Z",
   "players": {
     "t1-LEO": {
       "team": 1,
@@ -416,11 +416,11 @@
       "kind": "player",
       "role": "PLAYER",
       "live": false,
-      "platform": "twitch",
-      "liveUrl": "https://www.twitch.tv/yakumobeni",
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@yakumo_beni",
       "title": null,
       "thumbnail": null,
-      "changedAt": "2026-10-02T03:50:04.133Z"
+      "changedAt": "2026-10-02T08:04:24.612Z"
     },
     "t12-渋谷ハル": {
       "team": 12,
@@ -620,11 +620,11 @@
       "kind": "player",
       "role": "PLAYER",
       "live": false,
-      "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/@963noah",
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/963noah",
       "title": null,
       "thumbnail": null,
-      "changedAt": "2026-10-02T03:50:04.133Z"
+      "changedAt": "2026-10-02T08:04:24.612Z"
     },
     "t18-1tappy": {
       "team": 18,
