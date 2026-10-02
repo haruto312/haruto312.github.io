@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "generatedAt": "2026-10-02T04:36:01.156Z",
+  "generatedAt": "2026-10-02T08:03:54.010Z",
   "players": {
     "t1-LEO": {
       "team": 1,
@@ -187,12 +187,12 @@
       "name": "加藤純一",
       "kind": "player",
       "role": "PLAYER",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/kato_junichi0817",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T03:50:04.133Z"
+      "title": "APEX＆APEX | apex legendsを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/a4977cfd-1962-41ec-9355-ab2611b97552-profile_image-300x300.png",
+      "changedAt": "2026-10-02T08:03:54.010Z"
     },
     "t6-すもも": {
       "team": 6,
@@ -202,21 +202,21 @@
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/sumomo_x",
-      "title": "強くなりたい守りたい、いや守る | just chattingを配信中。",
+      "title": "俺が守る | apex legendsを4866人の視聴者に配信中。",
       "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/a3d63907-d40b-4731-80a2-b0e4477f8f19-profile_image-300x300.png",
-      "changedAt": "2026-10-02T04:27:15.370Z"
+      "changedAt": "2026-10-02T08:03:54.010Z"
     },
     "t6-たいじ": {
       "team": 6,
       "name": "たいじ",
       "kind": "player",
       "role": "PLAYER",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/yaritaiji",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T03:50:04.133Z"
+      "title": "APEXするお兄さん視点 | apex legendsを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/cd38df56-e572-4a60-9b02-76db09d0acdd-profile_image-300x300.png",
+      "changedAt": "2026-10-02T08:03:54.010Z"
     },
     "t7-柊ツルギ": {
       "team": 7,
@@ -439,12 +439,12 @@
       "name": "わいわい",
       "kind": "player",
       "role": "PLAYER",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/crazyraccoonyy",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T03:50:04.133Z"
+      "title": "【CRcup】スクリム合宿 2日目 w/NIRU,neth | apex legendsを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/ae12385d-d05d-4741-9472-a97cc5148559-profile_image-300x300.png",
+      "changedAt": "2026-10-02T08:03:54.010Z"
     },
     "t13-NIRU": {
       "team": 13,
@@ -463,12 +463,12 @@
       "name": "neth",
       "kind": "player",
       "role": "PLAYER",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/neth3",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T03:50:04.133Z"
+      "title": "練 | apex legendsを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/d7c9f55a-3b1c-46ca-8006-52f692a31fbd-profile_image-300x300.png",
+      "changedAt": "2026-10-02T08:03:54.010Z"
     },
     "t14-k4sen": {
       "team": 14,
@@ -775,12 +775,12 @@
       "name": "Euriece",
       "kind": "coach",
       "role": "コーチ",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/euriece",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T04:34:34.676Z"
+      "title": "CR CUP SCRIM VOD REVIEW | apex legendsを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/be096cd1-8213-43dc-8c1a-99bf6a7cbda2-profile_image-300x300.jpeg",
+      "changedAt": "2026-10-02T08:03:54.010Z"
     },
     "c7-あおばじゃぱん": {
       "team": 7,
@@ -799,12 +799,12 @@
       "name": "Xtsuvi",
       "kind": "coach",
       "role": "コーチ",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/xtsuvi_",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T04:34:34.676Z"
+      "title": "CRカップスクリム見返し➞本日のCRカップスクリム | apex legendsを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/a8f38be7-04e0-4c13-8054-40c173451889-profile_image-300x300.png",
+      "changedAt": "2026-10-02T08:03:54.010Z"
     },
     "c9-Taida": {
       "team": 9,
@@ -847,24 +847,24 @@
       "name": "れく",
       "kind": "coach",
       "role": "コーチ",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/re9zq",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T04:34:34.676Z"
+      "title": "CRカップコーチ就任ありがとうございます～少し作業 | apex legendsを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/63c4b303-7b67-4435-9624-792fda659331-profile_image-300x300.png",
+      "changedAt": "2026-10-02T08:03:54.010Z"
     },
     "c12-むかい": {
       "team": 12,
       "name": "むかい",
       "kind": "coach",
       "role": "個人コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/mukai_fps",
-      "title": "CRCUP個人コーチありがとう ソロマス | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/fef4e294-e049-48fa-85c0-ff45f318620f-profile_image-300x300.png",
-      "changedAt": "2026-10-02T04:34:34.676Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T08:03:54.010Z"
     },
     "c14-Axis": {
       "team": 14,
@@ -883,24 +883,24 @@
       "name": "IeNaGa",
       "kind": "coach",
       "role": "コーチ",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/ienaga25",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T04:34:34.676Z"
+      "title": "CR CUPコーチさせていただくことになったので昨日の視点を見返していく | apex legendsを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/bb7e192a-34f5-4f4a-9113-dcc61de2be9a-profile_image-300x300.jpeg",
+      "changedAt": "2026-10-02T08:03:54.010Z"
     },
     "c16-ちゃんりよ": {
       "team": 16,
       "name": "ちゃんりよ",
       "kind": "coach",
       "role": "コーチ",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/chanriyo__",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T04:34:34.676Z"
+      "title": "CRCUP フィードバック作成 | apex legendsを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/8b16c7db-ca40-4dd5-afc3-e0cb80251635-profile_image-300x300.png",
+      "changedAt": "2026-10-02T08:03:54.010Z"
     },
     "c17-L1ng": {
       "team": 17,
