@@ -1,6 +1,6 @@
 {
   "version": 3,
-  "generatedAt": "2026-10-02T03:50:04.133Z",
+  "generatedAt": "2026-10-02T04:27:15.370Z",
   "players": {
     "t1-LEO": {
       "live": false,
@@ -131,12 +131,12 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t6-すもも": {
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/sumomo_x",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T03:50:04.133Z"
+      "title": "強くなりたい守りたい、いや守る | just chattingを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/a3d63907-d40b-4731-80a2-b0e4477f8f19-profile_image-300x300.png",
+      "changedAt": "2026-10-02T04:27:15.370Z"
     },
     "t6-たいじ": {
       "live": false,
