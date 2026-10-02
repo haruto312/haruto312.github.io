@@ -1,1 +1,366 @@
-{"version":2,"generatedAt":null,"players":{}}
+{
+  "version": 2,
+  "generatedAt": "2026-10-02T03:37:56.543Z",
+  "players": {
+    "t1-LEO": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@leo_playground",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t1-ヒカキン": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@hikakingames",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t1-cheeky": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/tttcheekyttt",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t2-Ras": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/ras_sama",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t2-SHAKA": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/fps_shaka",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t2-葛葉": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@Kuzuha",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t3-天月": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/cr_amatsuki",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t3-関優太": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/stylishnoob4",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t3-ハセシン": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@XxHASESHINxX",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t4-ありさか": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/cr_arisakaaa",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t4-一ノ瀬うるは": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@uruhaichinose",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t4-えでん": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@えでん",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t5-ローレン・イロアス": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/lauren_iroas2434",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t5-じゃすぱー": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/jasper7se",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t5-Cpt": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/cr_cpt",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t6-加藤純一": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/kato_junichi0817",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t6-すもも": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/sumomo_x",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t6-たいじ": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/yaritaiji",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t7-柊ツルギ": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/hiiragitsurugi",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t7-まろん": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/maronnv",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t7-SPYGEA": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/spygea",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t8-ボドカ": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/vodkavdk",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t8-猫汰つな": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@tsuna_nekota",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t8-麻倉シノ": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@Shino_Asakura",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t9-kinako": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/kinapoppo",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t9-橘ひなの": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@hinanotachiba7",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t9-りんしゃんつかい": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@Rinshan",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t10-AlphaAzur": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/alphaazur",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t10-叢雲カゲツ": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@MurakumoKagetsu",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t10-イブラヒム": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@Ibrahim",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t11-常闇トワ": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@TokoyamiTowa",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t11-うるか": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/ow_uruca",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t11-ゆふな": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/yufuna",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t12-Kamito": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/kamito_jp",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t12-八雲べに": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/yakumobeni",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t12-渋谷ハル": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@ShibuyaHAL",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t13-わいわい": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/crazyraccoonyy",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t13-NIRU": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/nniru",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t13-neth": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/neth3",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t14-k4sen": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/k4sen",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t14-ゆきお": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/yukiofps14",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t14-Biju": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/bijusan",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t15-なっち": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/nacchi081",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t15-VanilLa": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/cr_vanilla",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t15-花芽すみれ": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@kagasumire",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t16-小柳ロウ": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@KoyanagiRou",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t16-うぉっか": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/cr_wokka",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t16-紡木こかげ": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@kokage_tsumugi",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t17-不破湊": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@FuwaMinato",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t17-でっぴー": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@Depp0923",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t17-SqLA": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/sqla223",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t18-胡桃のあ": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@963noah",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t18-1tappy": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/1tappytheworld",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t18-樋口楓": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@HiguchiKaede",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t19-夢野あかり": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/akarindao",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t19-rpr": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/rprx",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t19-Ru": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/tie_ru",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t20-4rmy": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/4rmy_o",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t20-小森めと": {
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@met_komori",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    },
+    "t20-ラトナ・プティ": {
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/petit2434",
+      "changedAt": "2026-10-02T03:37:56.543Z"
+    }
+  }
+}
