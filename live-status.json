@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "generatedAt": "2026-10-02T19:34:24.643Z",
+  "generatedAt": "2026-10-02T23:12:10.909Z",
   "players": {
     "t1-LEO": {
       "team": 1,
@@ -31,12 +31,12 @@
       "name": "cheeky",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/tttcheekyttt",
-      "title": "【CRカップ】スクリム2日目 w/ LEO様、HIKAKINさん | apex legendsを705人の視聴者に配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/166f5098-18c7-499c-9ca3-a9dbf96a1d25-profile_image-300x300.png",
-      "changedAt": "2026-10-02T19:34:24.643Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "t2-Ras": {
       "team": 2,
@@ -163,12 +163,12 @@
       "name": "じゃすぱー",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/jasper7se",
-      "title": "DAY2の男達  with/ cpt rore C.peaceさん | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/4b329a05-aafd-4e91-87d0-ce8dc80c745c-profile_image-300x300.png",
-      "changedAt": "2026-10-02T14:51:34.611Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "t5-Cpt": {
       "team": 5,
@@ -223,12 +223,12 @@
       "name": "柊ツルギ",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/hiiragitsurugi",
-      "title": "ガチ特訓【CRカップAPEX 】 | apex legendsを4374人の視聴者に配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/8f077ace-48ff-4f3a-b8b6-17fb13bc90b5-profile_image-300x300.png",
-      "changedAt": "2026-10-02T19:34:24.643Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "t7-まろん": {
       "team": 7,
@@ -271,12 +271,12 @@
       "name": "猫汰つな",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=X6Nq7_3nq1Y",
+      "liveUrl": "https://www.youtube.com/@tsuna_nekota",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/X6Nq7_3nq1Y/hqdefault.jpg",
-      "changedAt": "2026-10-02T19:34:24.643Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "t8-麻倉シノ": {
       "team": 8,
@@ -321,10 +321,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=6-n2oCnAI-E",
+      "liveUrl": "https://www.youtube.com/watch?v=mJxGtLauGDg",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/6-n2oCnAI-E/hqdefault.jpg",
-      "changedAt": "2026-10-02T19:34:24.643Z"
+      "thumbnail": "https://i.ytimg.com/vi/mJxGtLauGDg/hqdefault.jpg",
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "t10-AlphaAzur": {
       "team": 10,
@@ -367,12 +367,12 @@
       "name": "常闇トワ",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
-      "platform": "twitch",
-      "liveUrl": "https://www.twitch.tv/tokoyamitowa_holo",
-      "title": "第11回CRカップAPEXスクリムDAY2 w/ゆふぃ、うーかさん、コーチ：しゅーぺー | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/cee54a83-dba8-4fc9-b0cc-5e40bb8fd514-profile_image-300x300.png",
-      "changedAt": "2026-10-02T14:51:34.611Z"
+      "live": false,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@TokoyamiTowa",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "t11-うるか": {
       "team": 11,
@@ -391,12 +391,12 @@
       "name": "ゆふな",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/yufuna",
-      "title": "CRカップスクリム2日目 | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/be8be9a0-07c9-4421-8e6b-e6ed2bb6ff4a-profile_image-300x300.png",
-      "changedAt": "2026-10-02T14:51:34.611Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "t12-Kamito": {
       "team": 12,
@@ -427,12 +427,12 @@
       "name": "渋谷ハル",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=6-n2oCnAI-E",
+      "liveUrl": "https://www.youtube.com/@ShibuyaHAL",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/6-n2oCnAI-E/hqdefault.jpg",
-      "changedAt": "2026-10-02T19:34:24.643Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "t13-わいわい": {
       "team": 13,
@@ -487,24 +487,24 @@
       "name": "ゆきお",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/yukiofps14",
-      "title": "CRカップスクリム 覚醒編 | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/457abaa2-37eb-49b3-a8b5-aafb2f91ecfc-profile_image-300x300.png",
-      "changedAt": "2026-10-02T14:51:34.611Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "t14-Biju": {
       "team": 14,
       "name": "Biju",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/bijusan",
-      "title": "CR CUPスクリム② 今日はラグりませんように | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/0ef86320-ce47-4c9c-931e-38da58c5dbcd-profile_image-300x300.png",
-      "changedAt": "2026-10-02T14:51:34.611Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "t15-なっち": {
       "team": 15,
@@ -547,12 +547,12 @@
       "name": "小柳ロウ",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=BqfteHuWIA0",
+      "liveUrl": "https://www.youtube.com/@KoyanagiRou",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/BqfteHuWIA0/hqdefault.jpg",
-      "changedAt": "2026-10-02T19:34:24.643Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "t16-うぉっか": {
       "team": 16,
@@ -571,12 +571,12 @@
       "name": "紡木こかげ",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=OdNgMsxtmfo",
+      "liveUrl": "https://www.youtube.com/@kokage_tsumugi",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/OdNgMsxtmfo/hqdefault.jpg",
-      "changedAt": "2026-10-02T19:34:24.643Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "t17-不破湊": {
       "team": 17,
@@ -763,12 +763,12 @@
       "name": "Peace",
       "kind": "coach",
       "role": "コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/peace_tw",
-      "title": "crカップスクリム コーチ | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/7462ecfe-697d-4f1e-b514-84b7dfc7ec66-profile_image-300x300.png",
-      "changedAt": "2026-10-02T14:51:34.611Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "c6-Euriece": {
       "team": 6,
@@ -799,12 +799,12 @@
       "name": "Xtsuvi",
       "kind": "coach",
       "role": "コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/xtsuvi_",
-      "title": "ランク/W ひろむね たかまさ | apex legendsを306人の視聴者に配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/a8f38be7-04e0-4c13-8054-40c173451889-profile_image-300x300.png",
-      "changedAt": "2026-10-02T19:34:24.643Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "c9-Taida": {
       "team": 9,
@@ -823,12 +823,12 @@
       "name": "Meltstera",
       "kind": "coach",
       "role": "コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/meltstera",
-      "title": "なんかランク誘われた。w/ひろむね つび | apex legendsを378人の視聴者に配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/a3dca85f-db4a-4b77-8fbf-d2bc60588aea-profile_image-300x300.png",
-      "changedAt": "2026-10-02T19:34:24.643Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "c11-Yamato": {
       "team": 11,
@@ -859,24 +859,24 @@
       "name": "むかい",
       "kind": "coach",
       "role": "個人コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/mukai_fps",
-      "title": "CRCUP個人コーチ いくぞ！ | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/fef4e294-e049-48fa-85c0-ff45f318620f-profile_image-300x300.png",
-      "changedAt": "2026-10-02T14:51:34.611Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "c14-Axis": {
       "team": 14,
       "name": "Axis",
       "kind": "coach",
       "role": "コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/axiss311",
-      "title": "CRCUP team14 | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bb2d747-5eb1-41f2-bc27-894fe5190996-profile_image-300x300.png",
-      "changedAt": "2026-10-02T19:34:24.643Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "c15-IeNaGa": {
       "team": 15,
@@ -895,12 +895,12 @@
       "name": "ちゃんりよ",
       "kind": "coach",
       "role": "コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/chanriyo__",
-      "title": "CRCUP team16 第2話 勝利の味を知る | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/8b16c7db-ca40-4dd5-afc3-e0cb80251635-profile_image-300x300.png",
-      "changedAt": "2026-10-02T14:51:34.611Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T23:12:10.909Z"
     },
     "c17-L1ng": {
       "team": 17,
