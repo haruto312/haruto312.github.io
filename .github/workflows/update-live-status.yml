@@ -2,6 +2,11 @@ name: Update CR Cup live status
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/update-live-status.yml'
+      - 'scripts/update_live_status.mjs'
+      - 'crcup_streams_v2.json'
   schedule:
     # 2026/10/1-4 09:00-01:55 JST = UTC 00:00-16:55, every 5 minutes.
     - cron: '*/5 0-16 1-4 10 *'
