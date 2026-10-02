@@ -17,7 +17,7 @@ permissions:
 
 concurrency:
   group: crcup-live-status
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -54,5 +54,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add live-status.json
           git commit -m "Update CR Cup live status"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          if ! git push origin HEAD:main; then
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
