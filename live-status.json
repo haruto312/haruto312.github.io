@@ -1,8 +1,12 @@
 {
-  "version": 3,
-  "generatedAt": "2026-10-02T04:27:15.370Z",
+  "version": 4,
+  "generatedAt": "2026-10-02T04:34:34.676Z",
   "players": {
     "t1-LEO": {
+      "team": 1,
+      "name": "LEO",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@leo_playground",
@@ -11,6 +15,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t1-ヒカキン": {
+      "team": 1,
+      "name": "ヒカキン",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@hikakingames",
@@ -19,6 +27,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t1-cheeky": {
+      "team": 1,
+      "name": "cheeky",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/tttcheekyttt",
@@ -27,6 +39,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t2-Ras": {
+      "team": 2,
+      "name": "Ras",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/ras_sama",
@@ -35,6 +51,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t2-SHAKA": {
+      "team": 2,
+      "name": "SHAKA",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/fps_shaka",
@@ -43,6 +63,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t2-葛葉": {
+      "team": 2,
+      "name": "葛葉",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@Kuzuha",
@@ -51,6 +75,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t3-天月": {
+      "team": 3,
+      "name": "天月",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/cr_amatsuki",
@@ -59,6 +87,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t3-関優太": {
+      "team": 3,
+      "name": "関優太",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/stylishnoob4",
@@ -67,6 +99,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t3-ハセシン": {
+      "team": 3,
+      "name": "ハセシン",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@XxHASESHINxX",
@@ -75,6 +111,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t4-ありさか": {
+      "team": 4,
+      "name": "ありさか",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/cr_arisakaaa",
@@ -83,6 +123,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t4-一ノ瀬うるは": {
+      "team": 4,
+      "name": "一ノ瀬うるは",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@uruhaichinose",
@@ -91,6 +135,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t4-えでん": {
+      "team": 4,
+      "name": "えでん",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@えでん",
@@ -99,6 +147,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t5-ローレン・イロアス": {
+      "team": 5,
+      "name": "ローレン・イロアス",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/lauren_iroas2434",
@@ -107,6 +159,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t5-じゃすぱー": {
+      "team": 5,
+      "name": "じゃすぱー",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/jasper7se",
@@ -115,6 +171,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t5-Cpt": {
+      "team": 5,
+      "name": "Cpt",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/cr_cpt",
@@ -123,6 +183,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t6-加藤純一": {
+      "team": 6,
+      "name": "加藤純一",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/kato_junichi0817",
@@ -131,6 +195,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t6-すもも": {
+      "team": 6,
+      "name": "すもも",
+      "kind": "player",
+      "role": "PLAYER",
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/sumomo_x",
@@ -139,6 +207,10 @@
       "changedAt": "2026-10-02T04:27:15.370Z"
     },
     "t6-たいじ": {
+      "team": 6,
+      "name": "たいじ",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/yaritaiji",
@@ -147,6 +219,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t7-柊ツルギ": {
+      "team": 7,
+      "name": "柊ツルギ",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/hiiragitsurugi",
@@ -155,6 +231,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t7-まろん": {
+      "team": 7,
+      "name": "まろん",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/maronnv",
@@ -163,6 +243,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t7-SPYGEA": {
+      "team": 7,
+      "name": "SPYGEA",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/spygea",
@@ -171,6 +255,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t8-ボドカ": {
+      "team": 8,
+      "name": "ボドカ",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/vodkavdk",
@@ -179,6 +267,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t8-猫汰つな": {
+      "team": 8,
+      "name": "猫汰つな",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@tsuna_nekota",
@@ -187,6 +279,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t8-麻倉シノ": {
+      "team": 8,
+      "name": "麻倉シノ",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@Shino_Asakura",
@@ -195,6 +291,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t9-kinako": {
+      "team": 9,
+      "name": "kinako",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/kinapoppo",
@@ -203,6 +303,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t9-橘ひなの": {
+      "team": 9,
+      "name": "橘ひなの",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@hinanotachiba7",
@@ -211,6 +315,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t9-りんしゃんつかい": {
+      "team": 9,
+      "name": "りんしゃんつかい",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@Rinshan",
@@ -219,6 +327,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t10-AlphaAzur": {
+      "team": 10,
+      "name": "AlphaAzur",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/alphaazur",
@@ -227,6 +339,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t10-叢雲カゲツ": {
+      "team": 10,
+      "name": "叢雲カゲツ",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@MurakumoKagetsu",
@@ -235,6 +351,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t10-イブラヒム": {
+      "team": 10,
+      "name": "イブラヒム",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@Ibrahim",
@@ -243,6 +363,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t11-常闇トワ": {
+      "team": 11,
+      "name": "常闇トワ",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@TokoyamiTowa",
@@ -251,6 +375,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t11-うるか": {
+      "team": 11,
+      "name": "うるか",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/ow_uruca",
@@ -259,6 +387,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t11-ゆふな": {
+      "team": 11,
+      "name": "ゆふな",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/yufuna",
@@ -267,6 +399,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t12-Kamito": {
+      "team": 12,
+      "name": "Kamito",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/kamito_jp",
@@ -275,6 +411,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t12-八雲べに": {
+      "team": 12,
+      "name": "八雲べに",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/yakumobeni",
@@ -283,6 +423,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t12-渋谷ハル": {
+      "team": 12,
+      "name": "渋谷ハル",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@ShibuyaHAL",
@@ -291,6 +435,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t13-わいわい": {
+      "team": 13,
+      "name": "わいわい",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/crazyraccoonyy",
@@ -299,6 +447,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t13-NIRU": {
+      "team": 13,
+      "name": "NIRU",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/nniru",
@@ -307,6 +459,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t13-neth": {
+      "team": 13,
+      "name": "neth",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/neth3",
@@ -315,6 +471,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t14-k4sen": {
+      "team": 14,
+      "name": "k4sen",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/k4sen",
@@ -323,6 +483,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t14-ゆきお": {
+      "team": 14,
+      "name": "ゆきお",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/yukiofps14",
@@ -331,6 +495,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t14-Biju": {
+      "team": 14,
+      "name": "Biju",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/bijusan",
@@ -339,6 +507,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t15-なっち": {
+      "team": 15,
+      "name": "なっち",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/nacchi081",
@@ -347,6 +519,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t15-VanilLa": {
+      "team": 15,
+      "name": "VanilLa",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/cr_vanilla",
@@ -355,6 +531,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t15-花芽すみれ": {
+      "team": 15,
+      "name": "花芽すみれ",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@kagasumire",
@@ -363,6 +543,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t16-小柳ロウ": {
+      "team": 16,
+      "name": "小柳ロウ",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@KoyanagiRou",
@@ -371,6 +555,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t16-うぉっか": {
+      "team": 16,
+      "name": "うぉっか",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/cr_wokka",
@@ -379,6 +567,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t16-紡木こかげ": {
+      "team": 16,
+      "name": "紡木こかげ",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@kokage_tsumugi",
@@ -387,6 +579,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t17-不破湊": {
+      "team": 17,
+      "name": "不破湊",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@FuwaMinato",
@@ -395,6 +591,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t17-でっぴー": {
+      "team": 17,
+      "name": "でっぴー",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@Depp0923",
@@ -403,6 +603,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t17-SqLA": {
+      "team": 17,
+      "name": "SqLA",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/sqla223",
@@ -411,6 +615,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t18-胡桃のあ": {
+      "team": 18,
+      "name": "胡桃のあ",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@963noah",
@@ -419,6 +627,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t18-1tappy": {
+      "team": 18,
+      "name": "1tappy",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/1tappytheworld",
@@ -427,6 +639,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t18-樋口楓": {
+      "team": 18,
+      "name": "樋口楓",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@HiguchiKaede",
@@ -435,6 +651,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t19-夢野あかり": {
+      "team": 19,
+      "name": "夢野あかり",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/akarindao",
@@ -443,6 +663,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t19-rpr": {
+      "team": 19,
+      "name": "rpr",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/rprx",
@@ -451,6 +675,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t19-Ru": {
+      "team": 19,
+      "name": "Ru",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/tie_ru",
@@ -459,6 +687,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t20-4rmy": {
+      "team": 20,
+      "name": "4rmy",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/4rmy_o",
@@ -467,6 +699,10 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t20-小森めと": {
+      "team": 20,
+      "name": "小森めと",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "youtube",
       "liveUrl": "https://www.youtube.com/@met_komori",
@@ -475,12 +711,244 @@
       "changedAt": "2026-10-02T03:50:04.133Z"
     },
     "t20-ラトナ・プティ": {
+      "team": 20,
+      "name": "ラトナ・プティ",
+      "kind": "player",
+      "role": "PLAYER",
       "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/petit2434",
       "title": null,
       "thumbnail": null,
       "changedAt": "2026-10-02T03:50:04.133Z"
+    },
+    "c1-satuki": {
+      "team": 1,
+      "name": "satuki",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/satuking_",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c2-YukaF": {
+      "team": 2,
+      "name": "YukaF",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/iq200yukaf",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c3-5CG": {
+      "team": 3,
+      "name": "5CG",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/mk_5cg",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c5-Peace": {
+      "team": 5,
+      "name": "Peace",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/peace_tw",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c6-Euriece": {
+      "team": 6,
+      "name": "Euriece",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/euriece",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c7-あおばじゃぱん": {
+      "team": 7,
+      "name": "あおばじゃぱん",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/aqba_japan_",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c8-Xtsuvi": {
+      "team": 8,
+      "name": "Xtsuvi",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/xtsuvi_",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c9-Taida": {
+      "team": 9,
+      "name": "Taida",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/taidaaaa_",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c10-Meltstera": {
+      "team": 10,
+      "name": "Meltstera",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/meltstera",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c11-Yamato": {
+      "team": 11,
+      "name": "Yamato",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/yamatoshuhei8",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c12-れく": {
+      "team": 12,
+      "name": "れく",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/re9zq",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c12-むかい": {
+      "team": 12,
+      "name": "むかい",
+      "kind": "coach",
+      "role": "個人コーチ",
+      "live": true,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/mukai_fps",
+      "title": "CRCUP個人コーチありがとう ソロマス | apex legendsを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/fef4e294-e049-48fa-85c0-ff45f318620f-profile_image-300x300.png",
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c14-Axis": {
+      "team": 14,
+      "name": "Axis",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/axiss311",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c15-IeNaGa": {
+      "team": 15,
+      "name": "IeNaGa",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/ienaga25",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c16-ちゃんりよ": {
+      "team": 16,
+      "name": "ちゃんりよ",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/chanriyo__",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c17-L1ng": {
+      "team": 17,
+      "name": "L1ng",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/l1ng_ftw",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c18-Lykq": {
+      "team": 18,
+      "name": "Lykq",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/lykq8don",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c19-もやし9": {
+      "team": 19,
+      "name": "もやし9",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/moyashii9",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
+    },
+    "c20-4rufa": {
+      "team": 20,
+      "name": "4rufa",
+      "kind": "coach",
+      "role": "コーチ",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/4rufq",
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-02T04:34:34.676Z"
     }
   }
 }
