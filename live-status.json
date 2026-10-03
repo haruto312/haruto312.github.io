@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "generatedAt": "2026-10-02T23:12:10.909Z",
+  "generatedAt": "2026-10-03T01:55:27.442Z",
   "players": {
     "t1-LEO": {
       "team": 1,
@@ -319,12 +319,12 @@
       "name": "りんしゃんつかい",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=mJxGtLauGDg",
+      "liveUrl": "https://www.youtube.com/@Rinshan",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/mJxGtLauGDg/hqdefault.jpg",
-      "changedAt": "2026-10-02T23:12:10.909Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-03T01:55:27.442Z"
     },
     "t10-AlphaAzur": {
       "team": 10,
@@ -439,12 +439,12 @@
       "name": "わいわい",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/crazyraccoonyy",
-      "title": "【CRcup】スクリム合宿 2日目 w/NIRU,neth | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/ae12385d-d05d-4741-9472-a97cc5148559-profile_image-300x300.png",
-      "changedAt": "2026-10-02T08:03:54.010Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-03T01:55:27.442Z"
     },
     "t13-NIRU": {
       "team": 13,
@@ -704,11 +704,11 @@
       "kind": "player",
       "role": "PLAYER",
       "live": false,
-      "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/@met_komori",
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/met_komori",
       "title": null,
       "thumbnail": null,
-      "changedAt": "2026-10-02T19:34:24.643Z"
+      "changedAt": "2026-10-03T01:55:27.442Z"
     },
     "t20-ラトナ・プティ": {
       "team": 20,
