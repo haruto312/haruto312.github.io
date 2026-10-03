@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "generatedAt": "2026-10-03T12:31:24.708Z",
+  "generatedAt": "2026-10-03T16:36:28.516Z",
   "players": {
     "t1-LEO": {
       "team": 1,
@@ -21,10 +21,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=Rtuq26CjvEU",
+      "liveUrl": "https://www.youtube.com/watch?v=Z5hbUP8Jubk",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/Rtuq26CjvEU/hqdefault.jpg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "thumbnail": "https://i.ytimg.com/vi/Z5hbUP8Jubk/hqdefault.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t1-cheeky": {
       "team": 1,
@@ -33,10 +33,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=A-3dOYVzDEo",
+      "liveUrl": "https://www.youtube.com/watch?v=3kdZk9dYFDo",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/A-3dOYVzDEo/hqdefault.jpg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "thumbnail": "https://i.ytimg.com/vi/3kdZk9dYFDo/hqdefault.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t2-Ras": {
       "team": 2,
@@ -105,10 +105,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=3kdZk9dYFDo",
+      "liveUrl": "https://www.youtube.com/watch?v=Z5hbUP8Jubk",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/3kdZk9dYFDo/hqdefault.jpg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "thumbnail": "https://i.ytimg.com/vi/Z5hbUP8Jubk/hqdefault.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t4-ありさか": {
       "team": 4,
@@ -141,10 +141,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=67MMEUIV_EA",
+      "liveUrl": "https://www.youtube.com/watch?v=3kdZk9dYFDo",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/67MMEUIV_EA/hqdefault.jpg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "thumbnail": "https://i.ytimg.com/vi/3kdZk9dYFDo/hqdefault.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t5-ローレン・イロアス": {
       "team": 5,
@@ -273,10 +273,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=67MMEUIV_EA",
+      "liveUrl": "https://www.youtube.com/watch?v=MOtd85FWUlY",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/67MMEUIV_EA/hqdefault.jpg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "thumbnail": "https://i.ytimg.com/vi/MOtd85FWUlY/hqdefault.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t8-麻倉シノ": {
       "team": 8,
@@ -309,10 +309,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=67MMEUIV_EA",
+      "liveUrl": "https://www.youtube.com/watch?v=ry2qroYMmtM",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/67MMEUIV_EA/hqdefault.jpg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "thumbnail": "https://i.ytimg.com/vi/ry2qroYMmtM/hqdefault.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t9-りんしゃんつかい": {
       "team": 9,
@@ -321,10 +321,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=020ZvO0FbMM",
+      "liveUrl": "https://www.youtube.com/watch?v=ji3g1SWX7lc",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/020ZvO0FbMM/hqdefault.jpg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "thumbnail": "https://i.ytimg.com/vi/ji3g1SWX7lc/hqdefault.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t10-AlphaAzur": {
       "team": 10,
@@ -345,10 +345,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=erOnIvdFWK8",
+      "liveUrl": "https://www.youtube.com/watch?v=ry2qroYMmtM",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/erOnIvdFWK8/hqdefault.jpg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "thumbnail": "https://i.ytimg.com/vi/ry2qroYMmtM/hqdefault.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t10-イブラヒム": {
       "team": 10,
@@ -429,10 +429,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=-yFlegG8rBk",
+      "liveUrl": "https://www.youtube.com/watch?v=La2AMy4OqB4",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/-yFlegG8rBk/hqdefault.jpg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "thumbnail": "https://i.ytimg.com/vi/La2AMy4OqB4/hqdefault.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t13-わいわい": {
       "team": 13,
@@ -537,10 +537,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=67MMEUIV_EA",
+      "liveUrl": "https://www.youtube.com/watch?v=ry2qroYMmtM",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/67MMEUIV_EA/hqdefault.jpg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "thumbnail": "https://i.ytimg.com/vi/ry2qroYMmtM/hqdefault.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t16-小柳ロウ": {
       "team": 16,
@@ -549,10 +549,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=ZAInMWAQdMo",
+      "liveUrl": "https://www.youtube.com/watch?v=Z9xX8v4AOVw",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/ZAInMWAQdMo/hqdefault.jpg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "thumbnail": "https://i.ytimg.com/vi/Z9xX8v4AOVw/hqdefault.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t16-うぉっか": {
       "team": 16,
@@ -573,10 +573,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=67MMEUIV_EA",
+      "liveUrl": "https://www.youtube.com/watch?v=3kdZk9dYFDo",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/67MMEUIV_EA/hqdefault.jpg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "thumbnail": "https://i.ytimg.com/vi/3kdZk9dYFDo/hqdefault.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t17-不破湊": {
       "team": 17,
@@ -585,10 +585,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=LK1S6F5QhLU",
+      "liveUrl": "https://www.youtube.com/watch?v=sNDNx8bz3UQ",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/LK1S6F5QhLU/hqdefault.jpg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "thumbnail": "https://i.ytimg.com/vi/sNDNx8bz3UQ/hqdefault.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t17-でっぴー": {
       "team": 17,
@@ -597,10 +597,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=HPxcMt0td0I",
+      "liveUrl": "https://www.youtube.com/watch?v=ZAInMWAQdMo",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/HPxcMt0td0I/hqdefault.jpg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "thumbnail": "https://i.ytimg.com/vi/ZAInMWAQdMo/hqdefault.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t17-SqLA": {
       "team": 17,
@@ -621,10 +621,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=-DyueUeSWiw",
+      "liveUrl": "https://www.youtube.com/watch?v=2cGdyqzQ3pc",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/-DyueUeSWiw/hqdefault.jpg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "thumbnail": "https://i.ytimg.com/vi/2cGdyqzQ3pc/hqdefault.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t18-1tappy": {
       "team": 18,
@@ -645,10 +645,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=izeUKJg8BtQ",
+      "liveUrl": "https://www.youtube.com/watch?v=n1A59dxqgWI",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/izeUKJg8BtQ/hqdefault.jpg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "thumbnail": "https://i.ytimg.com/vi/n1A59dxqgWI/hqdefault.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t19-夢野あかり": {
       "team": 19,
@@ -667,12 +667,12 @@
       "name": "rpr",
       "kind": "player",
       "role": "PLAYER",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/rprx",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T19:34:24.643Z"
+      "title": "CRcup Team 19 SCRIM DAY 3｜!REFT !org [日本語/EN OK] | apex legendsを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/8ebf8427-2228-4524-93e5-cb90ffb99233-profile_image-300x300.png",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t19-Ru": {
       "team": 19,
@@ -705,10 +705,10 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=-yFlegG8rBk",
+      "liveUrl": "https://www.youtube.com/watch?v=7T9Ua5oN-cA",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/-yFlegG8rBk/hqdefault.jpg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "thumbnail": "https://i.ytimg.com/vi/7T9Ua5oN-cA/hqdefault.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "t20-ラトナ・プティ": {
       "team": 20,
@@ -850,9 +850,9 @@
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/re9zq",
-      "title": "カスタム→CRカップ スクリムDay3 w/渋谷ハル3kamito3八雲べに3むかい3 | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/63c4b303-7b67-4435-9624-792fda659331-profile_image-300x300.png",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "title": "Twitch is the world's leading video platform and community for gamers.",
+      "thumbnail": "https://static-cdn.jtvnw.net/ttv-static-metadata/twitch_logo3.jpg",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "c12-むかい": {
       "team": 12,
@@ -871,12 +871,12 @@
       "name": "Axis",
       "kind": "coach",
       "role": "コーチ",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/axiss311",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T23:12:10.909Z"
+      "title": "CRCUP team14 ラストすくりむ | apex legendsを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bb2d747-5eb1-41f2-bc27-894fe5190996-profile_image-300x300.png",
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "c15-IeNaGa": {
       "team": 15,
@@ -886,9 +886,9 @@
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/ienaga25",
-      "title": "CR CUP TEAM15コーチ ３日目！inVS ~戦いの中で~ | apex legendsを145人の視聴者に配信中。",
+      "title": "CR CUP TEAM15コーチ ３日目！~戦いの中で~ | apex legendsを155人の視聴者に配信中。",
       "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/bb7e192a-34f5-4f4a-9113-dcc61de2be9a-profile_image-300x300.jpeg",
-      "changedAt": "2026-10-03T12:31:24.708Z"
+      "changedAt": "2026-10-03T16:36:28.516Z"
     },
     "c16-ちゃんりよ": {
       "team": 16,
