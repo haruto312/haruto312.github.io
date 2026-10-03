@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "generatedAt": "2026-10-03T01:55:27.442Z",
+  "generatedAt": "2026-10-03T07:12:50.553Z",
   "players": {
     "t1-LEO": {
       "team": 1,
@@ -31,12 +31,12 @@
       "name": "cheeky",
       "kind": "player",
       "role": "PLAYER",
-      "live": false,
-      "platform": "twitch",
-      "liveUrl": "https://www.twitch.tv/tttcheekyttt",
+      "live": true,
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/watch?v=XX6HY4djZks",
       "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T23:12:10.909Z"
+      "thumbnail": "https://i.ytimg.com/vi/XX6HY4djZks/hqdefault.jpg",
+      "changedAt": "2026-10-03T07:12:50.553Z"
     },
     "t2-Ras": {
       "team": 2,
@@ -187,36 +187,36 @@
       "name": "加藤純一",
       "kind": "player",
       "role": "PLAYER",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/kato_junichi0817",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T19:34:24.643Z"
+      "title": "２１時よりCRカップスクリムラスト | apex legendsを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/a4977cfd-1962-41ec-9355-ab2611b97552-profile_image-300x300.png",
+      "changedAt": "2026-10-03T07:12:50.553Z"
     },
     "t6-すもも": {
       "team": 6,
       "name": "すもも",
       "kind": "player",
       "role": "PLAYER",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/sumomo_x",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T19:34:24.643Z"
+      "title": "まもる | apex legendsを5542人の視聴者に配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/a3d63907-d40b-4731-80a2-b0e4477f8f19-profile_image-300x300.png",
+      "changedAt": "2026-10-03T07:12:50.553Z"
     },
     "t6-たいじ": {
       "team": 6,
       "name": "たいじ",
       "kind": "player",
       "role": "PLAYER",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/yaritaiji",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T19:34:24.643Z"
+      "title": "CRカップの最後の練習か | apex legendsを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/cd38df56-e572-4a60-9b02-76db09d0acdd-profile_image-300x300.png",
+      "changedAt": "2026-10-03T07:12:50.553Z"
     },
     "t7-柊ツルギ": {
       "team": 7,
@@ -704,11 +704,11 @@
       "kind": "player",
       "role": "PLAYER",
       "live": false,
-      "platform": "twitch",
-      "liveUrl": "https://www.twitch.tv/met_komori",
+      "platform": "youtube",
+      "liveUrl": "https://www.youtube.com/@met_komori",
       "title": null,
       "thumbnail": null,
-      "changedAt": "2026-10-03T01:55:27.442Z"
+      "changedAt": "2026-10-03T07:12:50.553Z"
     },
     "t20-ラトナ・プティ": {
       "team": 20,
@@ -775,24 +775,24 @@
       "name": "Euriece",
       "kind": "coach",
       "role": "コーチ",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/euriece",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T19:34:24.643Z"
+      "title": "CR CUP SCRIMs | apex legendsを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/be096cd1-8213-43dc-8c1a-99bf6a7cbda2-profile_image-300x300.jpeg",
+      "changedAt": "2026-10-03T07:12:50.553Z"
     },
     "c7-あおばじゃぱん": {
       "team": 7,
       "name": "あおばじゃぱん",
       "kind": "coach",
       "role": "コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/aqba_japan_",
-      "title": "【ApexLegends】CRカップスクリム2日目 w/柊ツルギ まろん スパイギア | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/a0a72ab3-3490-4ea5-ac2d-71b761dffa12-profile_image-300x300.png",
-      "changedAt": "2026-10-02T14:51:34.611Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-03T07:12:50.553Z"
     },
     "c8-Xtsuvi": {
       "team": 8,
@@ -847,24 +847,24 @@
       "name": "れく",
       "kind": "coach",
       "role": "コーチ",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/re9zq",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T19:34:24.643Z"
+      "title": "APEX pro coach — れく__さんがTwitchでライブ配信中！ビデオをチェックしてチャットに登録し、コミュニティに参加しましょう。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/63c4b303-7b67-4435-9624-792fda659331-profile_image-300x300.png",
+      "changedAt": "2026-10-03T07:12:50.553Z"
     },
     "c12-むかい": {
       "team": 12,
       "name": "むかい",
       "kind": "coach",
       "role": "個人コーチ",
-      "live": false,
+      "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/mukai_fps",
-      "title": null,
-      "thumbnail": null,
-      "changedAt": "2026-10-02T23:12:10.909Z"
+      "title": "最近の趣味は大会をみること | overwatchを配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/fef4e294-e049-48fa-85c0-ff45f318620f-profile_image-300x300.png",
+      "changedAt": "2026-10-03T07:12:50.553Z"
     },
     "c14-Axis": {
       "team": 14,
