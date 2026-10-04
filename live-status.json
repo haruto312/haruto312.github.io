@@ -1,30 +1,30 @@
 {
   "version": 5,
-  "generatedAt": "2026-10-04T12:24:55.470Z",
+  "generatedAt": "2026-10-04T16:54:25.557Z",
   "players": {
     "t1-LEO": {
       "team": 1,
       "name": "LEO",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=US8tASReg3A",
+      "liveUrl": "https://www.youtube.com/@leo_playground",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/US8tASReg3A/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t1-ヒカキン": {
       "team": 1,
       "name": "ヒカキン",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=78gd1MENY30",
+      "liveUrl": "https://www.youtube.com/@hikakingames",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/78gd1MENY30/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t1-cheeky": {
       "team": 1,
@@ -32,11 +32,11 @@
       "kind": "player",
       "role": "PLAYER",
       "live": true,
-      "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=wNI8unx9a2Y",
-      "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/wNI8unx9a2Y/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/tttcheekyttt",
+      "title": "ちる | valorantを553人の視聴者に配信中。",
+      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/166f5098-18c7-499c-9ca3-a9dbf96a1d25-profile_image-300x300.png",
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t2-Ras": {
       "team": 2,
@@ -58,21 +58,21 @@
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/fps_shaka",
-      "title": "CRCUP本番 見果てぬ空 | apex legendsを配信中。",
+      "title": "2次会OW | overwatchを58196人の視聴者に配信中。",
       "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/d8a3e3e9-f70a-4634-bd59-b4a1cab834de-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t2-葛葉": {
       "team": 2,
       "name": "葛葉",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=e96K8KE6xoM",
+      "liveUrl": "https://www.youtube.com/@Kuzuha",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/e96K8KE6xoM/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t3-天月": {
       "team": 3,
@@ -82,9 +82,9 @@
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/cr_amatsuki",
-      "title": "CRカップ本番 月と太陽と関  w/ハセシン、関さん コーチむつき【CR/天月】 | apex legendsを配信中。",
+      "title": "CRカップ2次会加藤さんチームOWやる【CR/天月】 | overwatchを配信中。",
       "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/9586e511-85fc-44d1-9ac4-432af47d189b-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t3-関優太": {
       "team": 3,
@@ -94,9 +94,9 @@
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/stylishnoob4",
-      "title": "crカップ 泣いても笑っても本番や 5分遅延。ネタバレなし | apex legendsを配信中。",
+      "title": "この二次会で最初に寝たやつが真の最下位ってまじ？ | overwatchを30169人の視聴者に配信中。",
       "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/stylishnoob4-profile_image-08271f11296c16df-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t3-ハセシン": {
       "team": 3,
@@ -105,46 +105,46 @@
       "role": "PLAYER",
       "live": true,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=CWcSpLxtO84",
+      "liveUrl": "https://www.youtube.com/watch?v=pY8wzfFhRi4",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/CWcSpLxtO84/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": "https://i.ytimg.com/vi/pY8wzfFhRi4/hqdefault.jpg",
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t4-ありさか": {
       "team": 4,
       "name": "ありさか",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/cr_arisakaaa",
-      "title": "crカップ本番！！ #おに誰WIN | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/d84a1cac-ee7a-4b6b-9f3f-e3a8abfc8e30-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t4-一ノ瀬うるは": {
       "team": 4,
       "name": "一ノ瀬うるは",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=_eZmv3qcm9w",
+      "liveUrl": "https://www.youtube.com/@uruhaichinose",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/_eZmv3qcm9w/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t4-えでん": {
       "team": 4,
       "name": "えでん",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=VJMCC3VMINc",
+      "liveUrl": "https://www.youtube.com/@えでん",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/VJMCC3VMINc/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t5-ローレン・イロアス": {
       "team": 5,
@@ -166,9 +166,9 @@
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/jasper7se",
-      "title": "CRカップ本番だあああああ #DGMWIN | apex legendsを配信中。",
+      "title": "CRカップ本番だあああああ #DGMWIN | r.e.p.o.を4207人の視聴者に配信中。",
       "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/4b329a05-aafd-4e91-87d0-ce8dc80c745c-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t5-Cpt": {
       "team": 5,
@@ -190,9 +190,9 @@
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/kato_junichi0817",
-      "title": "１７時よりCRカップ優勝会場 | apex legendsを配信中。",
+      "title": "魂のOW | overwatchを74270人の視聴者に配信中。",
       "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/a4977cfd-1962-41ec-9355-ab2611b97552-profile_image-300x300.png",
-      "changedAt": "2026-10-04T06:16:20.759Z"
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t6-すもも": {
       "team": 6,
@@ -202,9 +202,9 @@
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/sumomo_x",
-      "title": "今日はCRカップ本番 | apex legendsを配信中。",
+      "title": "負けられないオーバーウォッチ | overwatchを2050人の視聴者に配信中。",
       "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/a3d63907-d40b-4731-80a2-b0e4477f8f19-profile_image-300x300.png",
-      "changedAt": "2026-10-04T06:16:20.759Z"
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t6-たいじ": {
       "team": 6,
@@ -214,9 +214,9 @@
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/yaritaiji",
-      "title": "CRカップ本番！優勝するぞ！ | apex legendsを2人の視聴者に配信中。",
+      "title": "俺達の戦いは終わらない | overwatchを15986人の視聴者に配信中。",
       "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/cd38df56-e572-4a60-9b02-76db09d0acdd-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t7-柊ツルギ": {
       "team": 7,
@@ -226,21 +226,21 @@
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/hiiragitsurugi",
-      "title": "【CRカップAPEX 】本番、優勝するぞ！！！！ 点灯後初チャンピオンここでする。 w/ まろん、スパイギア        5min delay | apex legendsを配信中。",
+      "title": "とんでもないカスタムに | overwatchを9823人の視聴者に配信中。",
       "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/8f077ace-48ff-4f3a-b8b6-17fb13bc90b5-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t7-まろん": {
       "team": 7,
       "name": "まろん",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/maronnv",
-      "title": "CRCUP 本番  w/柊ツルギ SPYGEA あおばじゃぱん | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/7cb5d313-5592-4f6f-8490-d1e83527efb6-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t7-SPYGEA": {
       "team": 7,
@@ -250,9 +250,9 @@
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/spygea",
-      "title": "CRCUP本番 絶対優勝すんぞ！ #忘れんなよ高橋メリクリファクトリーWIN 遅延あり | apex legendsを配信中。",
+      "title": "CRCUPお疲れ様でした！ | overwatchを11288人の視聴者に配信中。",
       "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/a14f330b-4212-40b3-9cdc-828c8b99af88-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t8-ボドカ": {
       "team": 8,
@@ -262,33 +262,33 @@
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/vodkavdk",
-      "title": "CRCUP本番行くぞ。絶対に勝つ #半リミットWIN | apex legendsを配信中。",
+      "title": "飲酒雑談 | just chattingを配信中。",
       "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/4e5103d0-fdd9-45fd-8549-2d6e3f67c1ad-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t8-猫汰つな": {
       "team": 8,
       "name": "猫汰つな",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=wNI8unx9a2Y",
+      "liveUrl": "https://www.youtube.com/@tsuna_nekota",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/wNI8unx9a2Y/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t8-麻倉シノ": {
       "team": 8,
       "name": "麻倉シノ",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=VJMCC3VMINc",
+      "liveUrl": "https://www.youtube.com/@Shino_Asakura",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/VJMCC3VMINc/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t9-kinako": {
       "team": 9,
@@ -307,72 +307,72 @@
       "name": "橘ひなの",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=yF-rViKpAoc",
+      "liveUrl": "https://www.youtube.com/@hinanotachiba7",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/yF-rViKpAoc/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t9-りんしゃんつかい": {
       "team": 9,
       "name": "りんしゃんつかい",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=wNI8unx9a2Y",
+      "liveUrl": "https://www.youtube.com/@Rinshan",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/wNI8unx9a2Y/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t10-AlphaAzur": {
       "team": 10,
       "name": "AlphaAzur",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/alphaazur",
-      "title": "CR CUP本番 #デカへそWIN | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bf4fced-94a4-4902-88c0-e7e35f7f1e9d-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t10-叢雲カゲツ": {
       "team": 10,
       "name": "叢雲カゲツ",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=ji3g1SWX7lc",
+      "liveUrl": "https://www.youtube.com/@MurakumoKagetsu",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/ji3g1SWX7lc/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t10-イブラヒム": {
       "team": 10,
       "name": "イブラヒム",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=e96K8KE6xoM",
+      "liveUrl": "https://www.youtube.com/@Ibrahim",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/e96K8KE6xoM/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t11-常闇トワ": {
       "team": 11,
       "name": "常闇トワ",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=wNI8unx9a2Y",
+      "liveUrl": "https://www.youtube.com/@TokoyamiTowa",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/wNI8unx9a2Y/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t11-うるか": {
       "team": 11,
@@ -391,12 +391,12 @@
       "name": "ゆふな",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/yufuna",
-      "title": "CRカップ本番！！ Team: とことこうるふぃ | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/be8be9a0-07c9-4421-8e6b-e6ed2bb6ff4a-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t12-Kamito": {
       "team": 12,
@@ -427,84 +427,84 @@
       "name": "渋谷ハル",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=rWt0f9LJyts",
+      "liveUrl": "https://www.youtube.com/@ShibuyaHAL",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/rWt0f9LJyts/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t13-わいわい": {
       "team": 13,
       "name": "わいわい",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/crazyraccoonyy",
-      "title": "【CRcup】Team13 &#34;ラグ上等&#34; 本番 w/NIRU,neth | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/ae12385d-d05d-4741-9472-a97cc5148559-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t13-NIRU": {
       "team": 13,
       "name": "NIRU",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/nniru",
-      "title": "CRカップ | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/05106d10-6e76-41f5-a9b0-fcdd75b98d41-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t13-neth": {
       "team": 13,
       "name": "neth",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/neth3",
-      "title": "CRCUP #ラグ上等WIN | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/d7c9f55a-3b1c-46ca-8006-52f692a31fbd-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t14-k4sen": {
       "team": 14,
       "name": "k4sen",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/k4sen",
-      "title": "Dāng KōngによるCRカップ優勝記念配信 | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/794e906d-64d7-41ab-bb89-8fb159e4124b-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t14-ゆきお": {
       "team": 14,
       "name": "ゆきお",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/yukiofps14",
-      "title": "CRカップ本番 4試合で優勝優勝 | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/457abaa2-37eb-49b3-a8b5-aafb2f91ecfc-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t14-Biju": {
       "team": 14,
       "name": "Biju",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/bijusan",
-      "title": "CR CUP本番 Team Dāng Kōng  Biju優勝視点(５分遅延) | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/0ef86320-ce47-4c9c-931e-38da58c5dbcd-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t15-なっち": {
       "team": 15,
@@ -523,36 +523,36 @@
       "name": "VanilLa",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/cr_vanilla",
-      "title": "CRカップ Apex 本番いくぞ～～ #たなかWIN | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/08024b21-d96e-4a12-8aa9-b020e5cf35b5-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t15-花芽すみれ": {
       "team": 15,
       "name": "花芽すみれ",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=US8tASReg3A",
+      "liveUrl": "https://www.youtube.com/@kagasumire",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/US8tASReg3A/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t16-小柳ロウ": {
       "team": 16,
       "name": "小柳ロウ",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=ji3g1SWX7lc",
+      "liveUrl": "https://www.youtube.com/@KoyanagiRou",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/ji3g1SWX7lc/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t16-うぉっか": {
       "team": 16,
@@ -571,108 +571,108 @@
       "name": "紡木こかげ",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=O27-JhgoxKE",
+      "liveUrl": "https://www.youtube.com/@kokage_tsumugi",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/O27-JhgoxKE/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t17-不破湊": {
       "team": 17,
       "name": "不破湊",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=e96K8KE6xoM",
+      "liveUrl": "https://www.youtube.com/@FuwaMinato",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/e96K8KE6xoM/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t17-でっぴー": {
       "team": 17,
       "name": "でっぴー",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=TLKaUsKOPMg",
+      "liveUrl": "https://www.youtube.com/@Depp0923",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/TLKaUsKOPMg/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t17-SqLA": {
       "team": 17,
       "name": "SqLA",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/sqla223",
-      "title": "CRカップ本番！優勝するぞ #おはつWIN ※5分遅延 | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/8b4b7607-fff1-4e64-872b-f9ae66103109-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t18-胡桃のあ": {
       "team": 18,
       "name": "胡桃のあ",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=wNI8unx9a2Y",
+      "liveUrl": "https://www.youtube.com/@963noah",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/wNI8unx9a2Y/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t18-1tappy": {
       "team": 18,
       "name": "1tappy",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/1tappytheworld",
-      "title": "【APEX】CR CUP 本番!! #わんちゃんWIN【エーペックスレジェンズ】 | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/e3411f46-26f8-4740-b769-bde994df8e2d-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t18-樋口楓": {
       "team": 18,
       "name": "樋口楓",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=Yq0l40IwPEg",
+      "liveUrl": "https://www.youtube.com/@HiguchiKaede",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/Yq0l40IwPEg/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t19-夢野あかり": {
       "team": 19,
       "name": "夢野あかり",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/akarindao",
-      "title": "CRCUP 本番!!rpr&rusan coach moyashi9san | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/d92ee667-de20-403c-9871-718c8887098c-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t19-rpr": {
       "team": 19,
       "name": "rpr",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/rprx",
-      "title": "CR CUP ApexLegends #11 MATCH 7 | ねずみっちCLUB w/ Akarin, TIE_Ru, moyashii (5 MIN DELAY|5分遅延)｜!REFT !org [日本語/EN OK] | apex legendsを1035人の視聴者に配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/8ebf8427-2228-4524-93e5-cb90ffb99233-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t19-Ru": {
       "team": 19,
@@ -703,12 +703,12 @@
       "name": "小森めと",
       "kind": "player",
       "role": "PLAYER",
-      "live": true,
-      "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/watch?v=deDNV_s0y54",
+      "live": false,
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/met_komori",
       "title": null,
-      "thumbnail": "https://i.ytimg.com/vi/deDNV_s0y54/hqdefault.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "t20-ラトナ・プティ": {
       "team": 20,
@@ -727,24 +727,24 @@
       "name": "satuki",
       "kind": "coach",
       "role": "コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/satuking_",
-      "title": "CRカップ 本番 team1 コーチ熱血応援 5分遅延 | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/ff398eac-b2c0-4620-affc-07da8506f3ed-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "c2-YukaF": {
       "team": 2,
       "name": "YukaF",
       "kind": "coach",
       "role": "コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/iq200yukaf",
-      "title": "CR CUP本番 コーチ 5分遅延 | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/2705cc1b-bbad-4859-b669-2eeb14e41946-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "c3-5CG": {
       "team": 3,
@@ -778,9 +778,9 @@
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/euriece",
-      "title": "CRカップ本番 5 MIN DELAY | apex legendsを5人の視聴者に配信中。",
+      "title": "OVERWATCH W/ JAPAN | overwatchを10093人の視聴者に配信中。",
       "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/be096cd1-8213-43dc-8c1a-99bf6a7cbda2-profile_image-300x300.jpeg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "c7-あおばじゃぱん": {
       "team": 7,
@@ -790,45 +790,45 @@
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/aqba_japan_",
-      "title": "【ApexLegends】CRカップ忘れんなよ高橋メリクリファクトリーWIN w/柊ツルギ まろん スパイギア | apex legendsを配信中。",
+      "title": "【ApexLegends】CRカップマジお疲れ様忘れんなよ高橋メリクリファクトリーWIN w/柊ツルギ まろん スパイギア | apex legendsを配信中。",
       "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/a0a72ab3-3490-4ea5-ac2d-71b761dffa12-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "c8-Xtsuvi": {
       "team": 8,
       "name": "Xtsuvi",
       "kind": "coach",
       "role": "コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/xtsuvi_",
-      "title": "CRカップ本番！！！！ 勝つぞ！！！！ #半リミットWIN | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/a8f38be7-04e0-4c13-8054-40c173451889-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "c9-Taida": {
       "team": 9,
       "name": "Taida",
       "kind": "coach",
       "role": "コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/taidaaaa_",
-      "title": "CRCUP チーム９＃蟹かきWIN コーチ視点 ※5分遅延 | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/0ef92717-62d8-4842-a8bc-50aa24d777b7-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "c10-Meltstera": {
       "team": 10,
       "name": "Meltstera",
       "kind": "coach",
       "role": "コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/meltstera",
-      "title": "第11回 Crazy Raccoon Cup Apex Legends team10コーチ視点 999WIN | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/a3dca85f-db4a-4b77-8fbf-d2bc60588aea-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "c11-Yamato": {
       "team": 11,
@@ -847,24 +847,24 @@
       "name": "れく",
       "kind": "coach",
       "role": "コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/re9zq",
-      "title": "CRカップ本番 優勝するぞ～！！Teamべてらんっ！ w/渋谷ハル３kamito3八雲べに３ #BTRNWIN ※5分遅延 | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/63c4b303-7b67-4435-9624-792fda659331-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "c12-むかい": {
       "team": 12,
       "name": "むかい",
       "kind": "coach",
       "role": "個人コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/mukai_fps",
-      "title": "CRCUP本番  べてらんっ！優勝配信 #べてらんWIN #BTRNWIN | apex legendsを276人の視聴者に配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/fef4e294-e049-48fa-85c0-ff45f318620f-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "c14-Axis": {
       "team": 14,
@@ -874,9 +874,9 @@
       "live": true,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/axiss311",
-      "title": "CR CUP本番 Team Dāng Kōng コーチ視点 #種WIN 5分遅延 | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/9bb2d747-5eb1-41f2-bc27-894fe5190996-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": "https://static-cdn.jtvnw.net/previews-ttv/live_user_axiss311-640x360.jpg?cb=1791132904789",
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "c15-IeNaGa": {
       "team": 15,
@@ -907,24 +907,24 @@
       "name": "L1ng",
       "kind": "coach",
       "role": "コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/l1ng_ftw",
-      "title": "CRカップ本番 不破湊さん でっぴーさん SqLAさん #おはつWIN 5分遅延 | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/31697374-c634-47f8-b211-c1419e7b8133-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "c18-Lykq": {
       "team": 18,
       "name": "Lykq",
       "kind": "coach",
       "role": "コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/lykq8don",
-      "title": "Twitch is the world's leading video platform and community for gamers.",
-      "thumbnail": "https://static-cdn.jtvnw.net/ttv-static-metadata/twitch_logo3.jpg",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     },
     "c19-もやし9": {
       "team": 19,
@@ -943,12 +943,12 @@
       "name": "4rufa",
       "kind": "coach",
       "role": "コーチ",
-      "live": true,
+      "live": false,
       "platform": "twitch",
       "liveUrl": "https://www.twitch.tv/4rufq",
-      "title": "CRCUP SCRIM team20コーチ 5分遅延 | apex legendsを配信中。",
-      "thumbnail": "https://static-cdn.jtvnw.net/jtv_user_pictures/864d0ccb-b69a-4317-9da9-9627da265215-profile_image-300x300.png",
-      "changedAt": "2026-10-04T12:24:55.470Z"
+      "title": null,
+      "thumbnail": null,
+      "changedAt": "2026-10-04T16:54:25.557Z"
     }
   }
 }
