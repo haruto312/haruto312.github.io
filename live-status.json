@@ -1,6 +1,6 @@
 {
   "version": 5,
-  "generatedAt": "2026-10-03T22:12:49.026Z",
+  "generatedAt": "2026-10-04T00:36:08.206Z",
   "players": {
     "t1-LEO": {
       "team": 1,
@@ -368,11 +368,11 @@
       "kind": "player",
       "role": "PLAYER",
       "live": false,
-      "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/@TokoyamiTowa",
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/tokoyamitowa_holo",
       "title": null,
       "thumbnail": null,
-      "changedAt": "2026-10-03T19:22:26.382Z"
+      "changedAt": "2026-10-04T00:36:08.206Z"
     },
     "t11-うるか": {
       "team": 11,
@@ -620,11 +620,11 @@
       "kind": "player",
       "role": "PLAYER",
       "live": false,
-      "platform": "youtube",
-      "liveUrl": "https://www.youtube.com/@963noah",
+      "platform": "twitch",
+      "liveUrl": "https://www.twitch.tv/963noah",
       "title": null,
       "thumbnail": null,
-      "changedAt": "2026-10-03T19:22:26.382Z"
+      "changedAt": "2026-10-04T00:36:08.206Z"
     },
     "t18-1tappy": {
       "team": 18,
