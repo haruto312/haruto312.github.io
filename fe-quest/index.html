@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>基本情報 QUEST</title>
+<style>
+:root{--bg:#0d1020;--card:#171b31;--card2:#202641;--text:#f5f7ff;--muted:#aab1ce;--accent:#7c8cff;--accent2:#5eead4;--gold:#fbbf24;--danger:#fb7185;--ok:#4ade80;--line:#303858}
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,"Noto Sans JP",sans-serif;background:radial-gradient(circle at top,#202750 0,#0d1020 42%);color:var(--text);min-height:100vh}
+.app{max-width:760px;margin:auto;padding:22px 16px 100px}.top{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}.brand{font-weight:900;letter-spacing:.08em;font-size:19px}.pill{background:#242a49;border:1px solid #363f68;border-radius:999px;padding:7px 11px;color:var(--muted);font-size:12px}
+.hero,.card{background:linear-gradient(145deg,rgba(32,38,65,.96),rgba(20,24,44,.96));border:1px solid #303858;border-radius:22px;box-shadow:0 18px 50px rgba(0,0,0,.24)}.hero{padding:22px;margin-bottom:14px}.levelrow{display:flex;justify-content:space-between;align-items:end;gap:10px}.level{font-size:38px;font-weight:950}.xptext{color:var(--muted);font-size:13px}.bar{height:12px;background:#0c1020;border-radius:99px;overflow:hidden;margin-top:12px;border:1px solid #303858}.fill{height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));width:0%;transition:.4s}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-top:16px}.stat{background:#11162b;border-radius:15px;padding:12px;text-align:center}.stat b{font-size:19px;display:block}.stat span{font-size:11px;color:var(--muted)}
+.card{padding:18px;margin:14px 0}.title{font-weight:850;font-size:17px;margin-bottom:13px}.quest{display:flex;gap:11px;align-items:center;padding:13px 0;border-bottom:1px solid #2b3250}.quest:last-child{border:0}.quest button{width:32px;height:32px;border-radius:10px;border:1px solid #47517d;background:#11162b;color:white;font-size:18px;cursor:pointer}.quest.done{opacity:.48}.quest.done .qname{text-decoration:line-through}.qmain{flex:1}.qname{font-weight:700}.qmeta{font-size:12px;color:var(--muted);margin-top:3px}.reward{color:var(--gold);font-weight:800;font-size:13px}
+.timer{text-align:center}.clock{font-size:58px;font-weight:900;font-variant-numeric:tabular-nums;letter-spacing:.03em;margin:5px 0 14px}.actions{display:flex;gap:9px;justify-content:center;flex-wrap:wrap}.btn{border:0;border-radius:13px;padding:12px 17px;font-weight:800;cursor:pointer;background:var(--accent);color:white}.btn.secondary{background:#29304f;color:#dce1ff}.btn.danger{background:#4a2431;color:#ffc6d1}.subject{margin:13px 0}.subjectline{display:flex;justify-content:space-between;font-size:13px;margin-bottom:6px}.smallbar{height:8px;background:#0e1224;border-radius:99px;overflow:hidden}.smallfill{height:100%;background:linear-gradient(90deg,#5eead4,#7c8cff)}
+.history{font-size:13px;color:var(--muted)}.history div{padding:8px 0;border-bottom:1px solid #2b3250}.empty{text-align:center;color:var(--muted);padding:12px}.footer{text-align:center;color:#6f789d;font-size:11px;margin-top:24px}.flash{animation:pop .45s ease}@keyframes pop{50%{transform:scale(1.025);box-shadow:0 0 30px rgba(124,140,255,.35)}}
+@media(max-width:480px){.level{font-size:32px}.clock{font-size:50px}.stats{gap:6px}.stat{padding:10px 5px}}
+</style>
+</head>
+<body><main class="app">
+<div class="top"><div class="brand">⚔ 基本情報 QUEST</div><div class="pill" id="today"></div></div>
+<section class="hero" id="hero"><div class="levelrow"><div><div class="xptext">YOUR LEVEL</div><div class="level">Lv. <span id="level">1</span></div></div><div class="xptext"><span id="xp">0</span> / <span id="nextxp">100</span> XP</div></div><div class="bar"><div class="fill" id="xpbar"></div></div><div class="stats"><div class="stat"><b>🔥 <span id="streak">0</span></b><span>連続学習</span></div><div class="stat"><b>⏱ <span id="minutes">0</span></b><span>累計分</span></div><div class="stat"><b>✓ <span id="clears">0</span></b><span>クエスト</span></div></div></section>
+<section class="card"><div class="title">🎯 今日のクエスト</div><div id="quests"></div></section>
+<section class="card timer"><div class="title">⏳ 集中タイマー</div><div class="clock" id="clock">25:00</div><div class="actions"><button class="btn" id="start">▶ 勉強開始</button><button class="btn secondary" id="pause">一時停止</button><button class="btn danger" id="reset">リセット</button></div><div class="qmeta" style="margin-top:12px">25分完走で +100 XP / アルゴリズム +25</div></section>
+<section class="card"><div class="title">📊 能力値</div><div id="subjects"></div></section>
+<section class="card"><div class="title">📜 冒険の記録</div><div class="history" id="history"></div></section>
+<div class="footer">データはこのブラウザに保存されます。小さく始めて、毎日XPを積もう。</div>
+</main>
+<script>
+const KEY='feQuestV1';
+const subjects=['テクノロジ','アルゴリズム','ネットワーク','データベース','セキュリティ'];
+const defaultState={xp:0,minutes:0,clears:0,lastStudy:null,streak:0,subjectXP:Object.fromEntries(subjects.map(s=>[s,0])),history:[],questDate:null,done:[]};
+let state=Object.assign({},defaultState,JSON.parse(localStorage.getItem(KEY)||'{}')); state.subjectXP=Object.assign({},defaultState.subjectXP,state.subjectXP||{});
+const quests=[{name:'過去問を5問解く',xp:50,sub:'テクノロジ',sx:15},{name:'アルゴリズムを15分',xp:80,sub:'アルゴリズム',sx:20},{name:'昨日のミスを3問復習',xp:30,sub:'セキュリティ',sx:10}];
+const dateKey=()=>new Date().toLocaleDateString('sv-SE');
+if(state.questDate!==dateKey()){state.questDate=dateKey();state.done=[];save()}
+function save(){localStorage.setItem(KEY,JSON.stringify(state))}
+function studyTouch(){const d=dateKey();if(state.lastStudy===d)return;let y=new Date();y.setDate(y.getDate()-1);const yd=y.toLocaleDateString('sv-SE');state.streak=state.lastStudy===yd?state.streak+1:1;state.lastStudy=d}
+function addXP(n,sub,sx,label){studyTouch();state.xp+=n;if(sub)state.subjectXP[sub]=(state.subjectXP[sub]||0)+(sx||0);state.history.unshift(`${new Date().toLocaleString('ja-JP',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'})}　${label}　+${n} XP`);state.history=state.history.slice(0,12);save();render();document.getElementById('hero').classList.remove('flash');void document.getElementById('hero').offsetWidth;document.getElementById('hero').classList.add('flash')}
+function render(){const level=Math.floor(state.xp/500)+1,base=(level-1)*500,next=level*500,progress=(state.xp-base)/500*100;levelEl.textContent=level;xpEl.textContent=state.xp;nextxp.textContent=next;xpbar.style.width=progress+'%';streak.textContent=state.streak;minutes.textContent=state.minutes;clears.textContent=state.clears;
+questsEl.innerHTML=quests.map((q,i)=>`<div class="quest ${state.done.includes(i)?'done':''}"><button onclick="complete(${i})">${state.done.includes(i)?'✓':'○'}</button><div class="qmain"><div class="qname">${q.name}</div><div class="qmeta">${q.sub} +${q.sx}</div></div><div class="reward">+${q.xp} XP</div></div>`).join('');
+subjectsEl.innerHTML=subjects.map(s=>{let v=state.subjectXP[s]||0,l=Math.floor(v/100)+1,p=v%100;return `<div class="subject"><div class="subjectline"><span>${s}</span><span>Lv.${l} ・ ${p}/100</span></div><div class="smallbar"><div class="smallfill" style="width:${p}%"></div></div></div>`}).join('');historyEl.innerHTML=state.history.length?state.history.map(h=>`<div>${h}</div>`).join(''):'<div class="empty">最初のクエストをクリアしよう。</div>'}
+window.complete=i=>{if(state.done.includes(i))return;state.done.push(i);state.clears++;const q=quests[i];addXP(q.xp,q.sub,q.sx,q.name)};
+let remaining=1500,timer=null,running=false;function paint(){clock.textContent=String(Math.floor(remaining/60)).padStart(2,'0')+':'+String(remaining%60).padStart(2,'0')}
+start.onclick=()=>{if(running)return;running=true;timer=setInterval(()=>{remaining--;paint();if(remaining<=0){clearInterval(timer);running=false;remaining=1500;state.minutes+=25;addXP(100,'アルゴリズム',25,'25分集中を完走');paint();alert('クエスト完了！ +100 XP 🎉')}},1000)};
+pause.onclick=()=>{clearInterval(timer);running=false};reset.onclick=()=>{clearInterval(timer);running=false;remaining=1500;paint()};
+const levelEl=document.getElementById('level'),xpEl=document.getElementById('xp'),nextxp=document.getElementById('nextxp'),xpbar=document.getElementById('xpbar'),streak=document.getElementById('streak'),minutes=document.getElementById('minutes'),clears=document.getElementById('clears'),questsEl=document.getElementById('quests'),subjectsEl=document.getElementById('subjects'),historyEl=document.getElementById('history'),clock=document.getElementById('clock');
+today.textContent=new Date().toLocaleDateString('ja-JP',{month:'short',day:'numeric',weekday:'short'});paint();render();
+</script></body></html>
